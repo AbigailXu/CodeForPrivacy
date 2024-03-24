@@ -1,22 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Entry} from '@/types/types'
+import {Post} from '@/types/types'
 
 
-type DatasetPageData = {
-    dataset: Entry;
+type PostPageData = {
+    dataset: Post;
 };
 
-function DatasetPage( { dataset } : DatasetPageData) {
+function PostPage( { dataset } : PostPageData) {
   const { _id, title, description } = dataset;
 
   return (
     <div>
       <h3>{title}</h3>
       <p>{description}</p>
-      
     </div>
   );
 }
 
-export default DatasetPage;
+export default PostPageData;

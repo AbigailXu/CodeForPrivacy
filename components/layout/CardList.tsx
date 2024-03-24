@@ -2,11 +2,11 @@ import React from 'react'
 import { TEAM } from '@/constants/team'
 import SectionTitle from '@/components/UI/SectionTitle'
 import Card from '@/components/layout/Card'
-import { Entry } from '@/types/types'
+import { Post, Resource } from '@/types/types'
 
 type CardListProps = {
   heading: String
-  cardEntries: Entry[]
+  cardEntries: (Post | Resource)[];
 }
 
 export default function CardList({ heading, cardEntries }: CardListProps) {

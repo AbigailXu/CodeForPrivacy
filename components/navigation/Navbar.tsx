@@ -10,34 +10,20 @@ const ROUTES = [
   {
     label: "Home",
     route: "/",
+    link: ""
   },{
-    label: "Datasets",
-    route: "/datasets",
+    label: "Privacy in AI",
+    route: "/posts",
+    link: ""
   },
   {
-    label: "Models",
-    route: "/models",
+    label: "Resources",
+    route: "/resources",
+    link: ""
   }
 ];
 
-// const SOCIALS = [
-//   {
-//     icon: <Mail className="w-6 text-white" />,
-//     href: "mailto:contact@uwdatascience.ca",
-//   },
-//   {
-//     icon: <Instagram className="w-6 text-white" />,
-//     href: "https://www.instagram.com/uwaterloodsc/",
-//   },
-//   {
-//     icon: <Linkedin className="w-6 text-white" />,
-//     href: "https://www.linkedin.com/company/waterloo-data-science-club/",
-//   },
-//   {
-//     icon: <Youtube className="w-6 text-white" />,
-//     href: "https://www.youtube.com/channel/UCknY88pglf2xz_S72WHIDxg",
-//   },
-// ];
+
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
@@ -48,7 +34,7 @@ export default function Navbar() {
         <Logo />
         <nav className="hidden gap-16 lg:flex">
           {ROUTES.map((route) => {
-            if (route.link) {
+            if (route.link != "") {
               return (
                 <a
                   href={route.link}
@@ -98,7 +84,7 @@ export default function Navbar() {
           classes="hidden lg:block"
           
         >
-          Upload Data
+          Contribute
         </Button>
       </header>
       <div

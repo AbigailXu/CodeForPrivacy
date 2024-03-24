@@ -1,22 +1,44 @@
 import { Tag } from "@/types/types";
 
 
-export const SAMPLE_DATASET_TAGS: Tag[] = [
+export const POST_TAGS: Tag[] = [
   {
-    id: "1",
-    title: "Mouse",
+    _id: "1",
+    title: "From the News",
     iconType: "",
     iconName: ""
   },
   {
-    id: "2",
-    title: "Chum salmon",
+    _id: "2",
+    title: "Statistics",
     iconType: "",
     iconName: ""
   },
   {
-    id: "1",
-    title: "Plant",
+    _id: "3",
+    title: "Others",
+    iconType: "",
+    iconName: ""
+  },
+  
+];
+
+export const RESOURCE_TAGS: Tag[] = [
+  {
+    _id: "1",
+    title: "Research",
+    iconType: "",
+    iconName: ""
+  },
+  {
+    _id: "2",
+    title: "Tools",
+    iconType: "",
+    iconName: ""
+  },
+  {
+    _id: "3",
+    title: "Legal",
     iconType: "",
     iconName: ""
   },
