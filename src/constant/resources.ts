@@ -1,6 +1,7 @@
 import { type Resource } from "@/types/types";
-import gretelAi from "@/../public/images/gretel.ai.png"
-import PLACEHOLDER from "@/../public/images/placeholder-image.png"
+
+const gretelAi = "@/../public/images/gretel.ai.png"
+const PLACEHOLDER = "@/../public/images/placeholder-image.png"
 
 export const RESOURCES: Resource[] = [
   {

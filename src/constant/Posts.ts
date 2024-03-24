@@ -1,6 +1,6 @@
 import { Post } from "@/types/types";
 
-import PLACEHOLDER from "@/../public/images/placeholder-image.png"
+const PLACEHOLDER = "@/../public/images/placeholder-image.png"
 
 export const POSTS: Post[] = [
   {

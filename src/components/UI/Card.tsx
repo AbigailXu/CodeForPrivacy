@@ -22,7 +22,7 @@ export default function Card({
       
       className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[250px] m-1">
       <Image
-         src={image}
+         src={image || 'path/to/default/image.png'} 
          alt={title}
          className="object-cover w-full h-full"
          layout="responsive"

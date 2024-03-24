@@ -2,7 +2,7 @@ export type Post = {
   _id: string;
   title: string;
   description?: string;
-  image: MediaImage;
+  image: string;
   date?: string;
   fileCount?: number;
 };
@@ -18,7 +18,7 @@ export type Resource = {
   _id: string;
   title: string;
   description?: string;
-  image?: MediaImage;
+  image?: string;
   date?: string;
   link?: string;
 };
