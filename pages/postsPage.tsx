@@ -1,21 +1,16 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import {Post} from '@/types/types'
+import CardList from "@/components/layout/CardList";
+import React from "react";
+import TagList from "@/components/layout/TagList";
+import {POSTS} from "@/constants/Posts"
+import { POST_TAGS } from "@/constants/tags";
 
 
-type PostPageData = {
-    dataset: Post;
-};
-
-function PostPage( { dataset } : PostPageData) {
-  const { _id, title, description } = dataset;
+export default function Post() {
 
   return (
-    <div>
-      <h3>{title}</h3>
-      <p>{description}</p>
+    <div className="flex">
+      <TagList tags = {POST_TAGS}/>
+      <CardList heading="Privacy in AI" cardEntries = {POSTS} />
     </div>
   );
 }
-
-export default PostPageData;

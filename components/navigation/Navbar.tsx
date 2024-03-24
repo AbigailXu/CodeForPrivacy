@@ -13,12 +13,12 @@ const ROUTES = [
     link: ""
   },{
     label: "Privacy in AI",
-    route: "/posts",
+    route: "/postsPage",
     link: ""
   },
   {
     label: "Resources",
-    route: "/resources",
+    route: "/resourcesPage",
     link: ""
   }
 ];

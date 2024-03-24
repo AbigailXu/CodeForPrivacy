@@ -1,13 +1,8 @@
-// import SEO from "@/components/SEO/SEO";
-// import SectionTitle from "@/components/UI/SectionTitle";
-// import TeamCard from "@/components/cards/TeamCard";
 import TagList from "@/components/layout/TagList";
 import CardList from "@/components/layout/CardList";
-import { RESOURCES } from "@/constants/Resources";
+import { RESOURCES } from "@/constants/resources";
 import { RESOURCE_TAGS } from "@/constants/tags";
 
-
-// import { TEAM } from "@/constants/team";
 
 export default function ResourcesPage() {
   return (
