@@ -1,0 +1,338 @@
+[
+    {
+      "title": "Insider's Responsibilities",
+      "intro": "The insider element is responsible for 95% of all cybersecurity incidents.",
+      "content": "Difficult to defend against user malpractice\nFirst, it is challenging to defend against data privacy malpractices, abuse and theft coming from insiders. The insider element is responsible for 95% of all cybersecurity incidents. And while organizations can introduce limitations to reduce the insider related data privacy risk, they may have limited visibility and control over third-party data privacy malpractices and violations. It is possible that third-party access may be legitimate and necessary to deliver a required business service, but regulations such as GDPR require businesses to maintain unprecedented visibility into data handling by third-party services.\nTake a data-centric and zero-trust approach to address these limitations. It requires consolidated controls and intelligence into all processes, handling and modification of data workloads:\nContinuously assess the trust by evaluating how third-party tools and API requests are processed and used to interact with sensitive customer data.\nEstablish security measures that can dynamically assign security policies and controls to individual data workloads.\nUse data loss prevention (DLP) tools to reduce the risk of a data breach. Additionally, encrypt sensitive information to help eliminate risk of misuse against compromised user data.",
+      "cover": "state-of-security-2023-resource-tile-amer.jpg",
+      "authors": "Muhammad Raza",
+      "references": "https://www.splunk.com/en_us/blog/learn/data-privacy.html?utm_campaign=google_amer_en_search_generic_dynamic_audienceonly&utm_source=google&utm_medium=cpc&utm_content=dynamic_search&utm_term=&_bk=&_bt=641457582634&_bm=&_bn=g&_bg=144996249552&device=c&gad_source=1&gclid=CjwKCAjw5ImwBhBtEiwAFHDZx92ei6yulg6yWv3bCX0xGd7B85BHBWXa72yh9urqYcpUQR1BA7b3ZhoCFj4QAvD_BwE",
+      "question": "What percent of all cybersecurity incidents are caused by insiders?",
+      "options": [
+        "35%",
+        "55%",
+        "75%",
+        "95%"
+      ],
+      "answer": "95%"
+    },
+    {
+      "title": "The State of Data Privacy in 2024",
+      "intro": "Understanding the critical statistics and trends in data privacy.",
+      "content": "Recent statistics highlight a growing concern among consumers regarding their data privacy, with a significant percentage expressing distrust in how companies handle their personal information. Trends indicate a rising demand for transparency and stronger data protection measures, as well as the increasing importance of trust in customer relationships. The data suggests that a majority of consumers are wary of data collection practices and seek reassurances that their information is being handled responsibly.",
+      "cover": "58-Alarming-Data-Privacy-Statistics-Businesses-Must-See-in-2022-01",
+      "authors": "Masha Komnenic",
+      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
+      "question": "What percentage of North Americans do not believe it's possible to go through daily life without companies collecting data about them?",
+      "options": [
+        "62%",
+        "75%",
+        "81%",
+        "58%"
+      ],
+      "answer": "62%"
+    },
+    {
+      "title": "Data Privacy and Business Trust",
+      "intro": "Understanding the link between data privacy practices and consumer trust in businesses.",
+      "content": "A vast majority of users say their willingness to share personal data with a company depends significantly on how much they trust that company. This highlights the critical role of trust in the relationship between businesses and consumers.",
+      "cover": "Personal-vs-Sensitive-Personal-Information-Explained.jpg",
+      "authors": "Masha Komnenic",
+      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
+      "question": "What percentage of users say their willingness to share personal data is dependent on their trust in a company?",
+      "options": [
+        "68%",
+        "78%",
+        "88%",
+        "98%"
+      ],
+      "answer": "88%"
+    },
+    {
+      "title": "Cybersecurity and Data Breach Costs",
+      "intro": "This question covers the financial implications of data breaches for companies.",
+      "content": "The article highlights an increase in the average cost of data breaches, underlining the financial risks businesses face in the event of a cybersecurity incident.",
+      "cover": "98-Biggest-Data-Breaches-Hack-and-Exposures-2022-Update.jpg",
+      "authors": "Masha Komnenic",
+      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
+      "question": "What was the average cost of data breaches in 2021 according to the article?",
+      "options": [
+        "$3.86 million",
+        "$4.24 million",
+        "$5.24 million",
+        "$6.24 million"
+      ],
+      "answer": "$4.24 million"
+    },
+    {
+      "title": "Online Privacy Importance",
+      "intro": "A look into how Americans view their online privacy.",
+      "content": "A large majority of Americans consider online privacy to be a very important issue, reflecting widespread concerns over data security and personal privacy.",
+      "cover": "ios-apps-that-collect-data.jpg",
+      "authors": "Josh Howarth",
+      "references": "https://explodingtopics.com/blog/data-privacy-stats",
+      "question": "What percentage of US Internet users agree that online privacy is important?",
+      "options": [
+        "70%",
+        "80%",
+        "90%",
+        "100%"
+      ],
+      "answer": "90%"
+    },
+    {
+      "title": "Data Control by Tech Companies",
+      "intro": "Exploring global consumer feelings towards data control by technology companies.",
+      "content": "A significant portion of consumers worldwide believe that technology companies have too much control over their data, indicating a general discomfort with current data management practices.",
+      "cover": "California Consumer Privacy Act.jpg",
+      "authors": "Josh Howarth",
+      "references": "https://explodingtopics.com/blog/data-privacy-stats",
+      "question": "What fraction of global consumers think tech companies have too much control over their data?",
+      "options": [
+        "One-third",
+        "One-half",
+        "Two-thirds",
+        "Three-quarters"
+      ],
+      "answer": "Two-thirds"
+    },
+    {
+      "title": "Consumer Actions for Online Privacy",
+      "intro": "This question looks into the measures taken by global adults to protect their online privacy.",
+      "content": "The article discusses the proactive steps taken by a significant number of adults worldwide to improve their data privacy, highlighting the growing concern and action against data vulnerability.",
+      "cover": "companies-control-over-data-min.jpg",
+      "authors": "Josh Howarth",
+      "references": "https://explodingtopics.com/blog/data-privacy-stats",
+      "question": "What percentage of global adults have taken steps to improve their online privacy?",
+      "options": [
+        "About 50%",
+        "Around 60%",
+        "Approximately 70%",
+        "Nearly 80%"
+      ],
+      "answer": "Approximately 70%"
+    },
+    {
+      "title": "Computer Virus Prevalence in the U.S.",
+      "intro": "Exploring the widespread issue of computer viruses among U.S. adults.",
+      "content": "About half of U.S. adults have experienced a computer virus, underscoring the pervasive risk and the importance of preventive measures like antivirus software.",
+      "cover": "Computer-Viruses-400x260.jpg",
+      "authors": "",
+      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+      "question": "What percentage of U.S. adults have had a computer virus?",
+      "options": [
+        "30%",
+        "40%",
+        "50%",
+        "60%"
+      ],
+      "answer": "50%"
+    },
+    {
+      "title": "Average Cost of Data Breach for SMBs",
+      "intro": "Highlighting the financial impact of data breaches on small and medium-sized businesses.",
+      "content": "The average cost of a data breach for SMBs is notably high, which emphasizes the critical need for robust security measures to mitigate potential financial losses.",
+      "cover": "Computer-Viruses-400x260.jpg",
+      "authors": "",
+      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+      "question": "What is the average cost of a data breach for SMBs?",
+      "options": [
+        "$50,000",
+        "$108,000",
+        "$200,000",
+        "$500,000"
+      ],
+      "answer": "$108,000"
+    },
+    {
+      "title": "Frequency of Hacker Attacks",
+      "intro": "Understanding the relentless frequency of hacker attacks in the digital age.",
+      "content": "Hacker attacks are alarmingly frequent, with an attempt made every 39 seconds, highlighting the ever-present threat to data security.",
+      "cover": "Computer-Viruses-400x260",
+      "authors": "",
+      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+      "question": "How often do hackers attack, on average?",
+      "options": [
+        "Every 29 seconds",
+        "Every 39 seconds",
+        "Every 49 seconds",
+        "Every 59 seconds"
+      ],
+      "answer": "Every 39 seconds"
+    },
+    {
+      "title": "Time Taken to Detect A Data Breach",
+      "intro": "Understanding the the time taken to detect a data breach compared to the time for a hack",
+      "content": "An IBM study of 17 industries showed that the average time to detect a data breach is 197 days. This means that while many companies and individuals are in the dark about their data, hackers have more time to analyze the data and sell it on the dark web.\nTo make matters worse, 42% of customers never receive notice from companies that their information has been compromised. This lack of awareness makes it difficult for data breaches to be resolved.\nFortunately, there are several steps businesses can take to detect a data breach sooner. Businesses should invest in governance, risk management and compliance (GRC) and hire cybersecurity analysts to routinely monitor their security practices. Ensure that you’re implementing cybersecurity best practices today.",
+      "cover": "Data-Breach-400x223.jpg",
+      "authors": "",
+      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+      "question": "How long does it take to detect a data breach, on average?",
+      "options": [
+        "Every 60 seconds",
+        "Every 30 minutes",
+        "Every 15 hours",
+        "Every 200 days"
+      ],
+      "answer": "Every 200 days"
+    },
+    {
+      "title": "The Need for a Cybersecurity Response Plan",
+      "intro": "Understanding the importance of having a cybersecurity response plan for every corporation",
+      "content": "As you have just learned, it takes an average of 197 days to detect a data breach and it is very important to develop a strategy to combat the effects. As it turns out, many enterprises don’t have a cyber security incident response plan (CSIRP).\nResearchers interviewed more than 3000 IT and Security professionals globally and found that 77% did not have a secure plan across organizations. Therefore, if a cyberattack or breach were to occur, the time required to resolve an incident will increase and likely cost organizations more. With the increase in volume of cyberattacks in 2021, it is important to have a response plan to minimize loss.",
+      "cover": "Data-Breach-2-400x251.jpg",
+      "authors": "",
+      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+      "question": "How many enterprises have a cybersecurity incident response plan?",
+      "options": [
+        "43%",
+        "23%",
+        "63%",
+        "33%"
+      ],
+      "answer": "23%"
+    },
+    {
+      "title": "Consumer Concerns on Data Privacy",
+      "intro": "Assessing the increasing concern among consumers regarding their data privacy.",
+      "content": "A significant portion of consumers now report being more concerned about their data privacy than in previous years, highlighting a growing awareness and unease regarding how personal data is handled.",
+      "cover": "Data-Privacy-Statistics-F-1.jpg",
+      "authors": "Osman Husain",
+      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
+      "question": "What percentage of consumers are more concerned about their data privacy now compared to a few years ago?",
+      "options": [
+        "53%",
+        "63%",
+        "73%",
+        "83%"
+      ],
+      "answer": "73%"
+    },
+    {
+      "title": "AI and Data Privacy Concerns",
+      "intro": "Exploring public trust in companies to make responsible AI decisions.",
+      "content": "With the advancement of AI, a considerable number of users report having little to no trust in companies to make responsible decisions regarding AI use in products, reflecting widespread skepticism.",
+      "cover": "Mprgin_Blog Images_1920x1000_DB_06march2023_V1.jpg",
+      "authors": "Osman Husain",
+      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
+      "question": "What percentage of users have little to no trust in companies to make responsible AI decisions?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "answer": "70%"
+    },
+    {
+      "title": "Data Privacy Benefits for Businesses",
+      "intro": "The impact of data privacy efforts on business operations and customer relations.",
+      "content": "Over 70% of business professionals report seeing significant benefits from their data privacy initiatives, highlighting the positive impact on operations, customer trust, and compliance.",
+      "cover": "Data-Privacy-M-2.jpg",
+      "authors": "Osman Husain",
+      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
+      "question": "What percentage of business professionals report significant benefits from data privacy efforts?",
+      "options": [
+        "60%",
+        "70%",
+        "80%",
+        "90%"
+      ],
+      "answer": "Over 70%"
+    },
+    {
+      "title": "Awareness of Privacy Regulations in the US",
+      "intro": "Assessing the awareness level of internet users in the US about their country’s privacy and data protection rules.",
+      "content": "According to a poll conducted in June 2019, of all the surveyed US internet users, a net total of 33% reported they were conversant with the privacy and data protection rules in their country. This was a combined total of 7% who were very aware and 26% who were somewhat aware.",
+      "cover": "security-2.jpg",
+      "authors": "Quint Smith",
+      "references": "https://informationsecurity.wustl.edu/data-privacy-fast-facts/",
+      "question": "What percentage of internet users in the US are unaware of their country’s privacy and data protection rules?",
+      "options": [
+        "47%",
+        "57%",
+        "67%",
+        "77%"
+      ],
+      "answer": "67%"
+    },
+    {
+      "title": "Global Coverage by Privacy Regulation",
+      "intro": "Understanding the global impact of privacy regulations on personal data.",
+      "content": "By a certain year, a significant portion of the world’s population is expected to have their personal data protected under some form of privacy regulation.",
+      "cover": "6.jpg",
+      "authors": "Quint Smith",
+      "references": "https://informationsecurity.wustl.edu/data-privacy-fast-facts/",
+      "question": "By what year is it estimated that 65% of the world’s population will have their personal data covered under privacy regulations?",
+      "options": [
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "answer": "2023"
+    },
+    {
+      "title": "Global Concerns on Online Privacy",
+      "intro": "Understanding the global internet users' concerns regarding their online privacy.",
+      "content": "It’s no news that companies and corporations rendering services to the general public have access to their customers’ data. However, what this data is being used for is a different matter entirely. \nNearly four in five respondents of a global survey released in 2020 believed that whatever happened with their personal data was no longer under their control. According to consumer privacy statistics, most consumers believed their private information was at the hands of the companies that collected them.",
+      "cover": "Data Privacy (2).jpg",
+      "authors": "Branka Vuleta",
+      "references": "https://legaljobs.io/blog/privacy-statistics/",
+      "question": "What percentage of internet users around the world feel they have completely lost control over their personal data?",
+      "options": [
+        "59%",
+        "69%",
+        "79%",
+        "89%"
+      ],
+      "answer": "79%"
+    },
+    {
+      "title": "Americans' Concern Over Online Privacy",
+      "intro": "The article discusses Americans' concerns and confusion regarding privacy and their lack of control over personal information.",
+      "content": "A majority of Americans believe that their activities are constantly tracked by companies and the government, and they express significant concern over the usage of their data. The perception of personal data being less secure now than in the past is prevalent, and there's a widespread lack of trust in entities that collect data.",
+      "cover": "PI_2019.11.15_Privacy_featured (1).jpg",
+      "authors": "Brooke Auxier, Lee Rainie, Monica Anderson, Andrew Perrin, Madhu Kumar, Erica Turner",
+      "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
+      "question": "What percentage of Americans believe their personal data is less secure than it was five years ago?",
+      "options": [
+        "50%",
+        "60%",
+        "70%",
+        "80%"
+      ],
+      "answer": "70%"
+    },
+    {
+      "title": "Reading Privacy Policies",
+      "intro": "Exploring Americans' habits regarding privacy policies and terms of service.",
+      "content": "Despite the ubiquity of privacy policies, a large majority of Americans rarely or never read these documents before agreeing to them. This behavior underscores a gap between the availability of privacy-related information and the public’s engagement with it.",
+      "cover": "PI_2019.11.14_privacy_0-01.webp",
+      "authors": "Brooke Auxier, Lee Rainie, Monica Anderson, Andrew Perrin, Madhu Kumar, Erica Turner",
+      "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
+      "question": "How many Americans always or often read a company's privacy policy before agreeing to it?",
+      "options": [
+        "9%",
+        "22%",
+        "36%",
+        "49%"
+      ],
+      "answer": "22%"
+    },
+    {
+      "title": "Confidence in Company Cybersecurity",
+      "intro": "This question assesses the confidence levels among IT leaders in their organizations' cybersecurity postures.",
+      "content": "TEMPE, Ariz., Feb. 24, 2021 — Nearly 80% of senior IT and IT security leaders believe their organizations lack sufficient protection against cyberattacks despite increased IT security investments made in 2020 to deal with distributed IT and work-from-home challenges, according to a new IDG Research Services survey commissioned by Insight Enterprises (NASDAQ:NSIT), the global integrator of Insight Intelligent Technology Solutions™ for organizations of all sizes.\nThat high level of concern over the ability to withstand cyberthreats in today’s complex IT environment is causing 91% of organizations to increase their cybersecurity budgets in 2021, nearly matching the 96% that boosted IT security spending in 2020, according to the survey by Insight’s Cloud + Data Center Transformation team.\nThe survey, “Cybersecurity at a Crossroads: The Insight 2021 Report,” examined the impact of the distributed IT landscape and pandemic-related transition to a remote workforce on IT security, including shifts in modernization priorities, projects undertaken in 2020, and major obstacles faced in strengthening cybersecurity defenses. Respondents included more than 200 C-level IT and IT security executives in organizations with an average of 21,300 employees across a wide range of industries.\nAt a top level, the survey found that 78% lack confidence in their company’s IT security posture and believe improvements are needed. Respondents expressed the least confidence in their organization’s security roadmap (32%), security-related technology and tools (30%), and internal teams and skill sets (27%). They reported the highest level of trust in their company’s data management strategy, but even then, less than half (45%) voiced confidence in this aspect of security operations.",
+      "cover": "network-security.jpg",
+      "authors": "",
+      "references": "https://solutions.insight.com/78-Lack-Confidence-in-Company-Cybersecurity",
+      "question": "What percentage of senior IT and IT security leaders lack confidence in their organization’s cybersecurity posture?",
+      "options": [
+        "68%",
+        "78%",
+        "88%",
+        "98%"
+      ],
+      "answer": "78%"
+    }
+  ]
