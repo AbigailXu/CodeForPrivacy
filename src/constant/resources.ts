@@ -1,16 +1,17 @@
 import { type Resource } from "@/types/types";
 
-const gretelAi = "@/../public/images/gretel.ai.png"
-const PLACEHOLDER = "@/../public/images/placeholder-image.png"
+import Onetrust from "../../public/images/tools/onetrust_cover.png"
 
 export const RESOURCES: Resource[] = [
+
   {
+
     _id: "1",
     title: "gretel.ai",
     description:
       "Generate artificial datasets with the same characteristics as real data, so you can develop and test AI models without compromising privacy.",
     link: "https://www.google.com",
-    image: gretelAi
+    image: Onetrust
   },
   {
     _id: "2",
@@ -18,7 +19,7 @@ export const RESOURCES: Resource[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
     link: "https://www.google.com",
-    image: PLACEHOLDER
+    image: Onetrust
   },
   {
     _id: "3",
@@ -26,7 +27,7 @@ export const RESOURCES: Resource[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
     link: "https://www.google.com",
-    image: PLACEHOLDER
+    image: Onetrust
   },
   {
     _id: "4",
@@ -34,7 +35,7 @@ export const RESOURCES: Resource[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
     link: "https://www.google.com",
-    image: PLACEHOLDER
+    image: Onetrust
   },
   {
     _id: "5",
@@ -42,6 +43,6 @@ export const RESOURCES: Resource[] = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.",
     link: "https://www.google.com",
-    image: PLACEHOLDER
+    image: Onetrust
   },
 ];
