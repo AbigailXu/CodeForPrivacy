@@ -1,0 +1,31 @@
+Enzuzo:
+
+"Introduction": "Build customizable cookie banners, record user consent, inform visitors of their privacy rights, and manage data deletion requests with a simple, low-code solution.",
+
+
+
+BigID:
+
+"Introduction": "A data discovery and intelligence platform that helps businesses discover and manage data across their entire enterprise",
+
+
+
+OneTrust:
+
+"Introduction": "A provider of a comprehensive suite of software products that help buisnesses comply with global regulations",
+
+
+
+Securiti:
+           
+"Introduction": "A privacy and data security automation solution that provides a comprehensive platform for security, governance, and compliance across on-premise, hybrid, and multi-cloud environments in different geographies",
+            
+
+
+Incogni:
+
+Collibra:
+
+PrivacyBee:
+
+Drata:

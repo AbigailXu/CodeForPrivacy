@@ -20,18 +20,20 @@ export default function Card({
   return (
     <div 
       
-      className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[250px] m-1">
-      <Image
-         src={image || 'path/to/default/image.png'} 
-         alt={title}
-         className="object-cover w-full h-full"
-         layout="responsive"
-         width={300}
-         height={150}  
-      />
+      className="w-[300px] overflow-hidden rounded-2xl border border-grey1 md:w-[300px] m-1">
+        <div className="h-[150px] overflow-hidden fill">
+          <Image
+            src={image || 'path/to/default/image.png'} 
+            alt={title}
+            className="object-cover w-full h-full"
+            layout="responsive"
+            width={300}
+            height={150}  
+          />
+        </div>
       <div className="relative whitespace-normal">
         <div className="absolute inset-0 opacity-10" />
-        <div className="relative px-6 pb-8 pt-5">
+        <div className="relative px-6 pb-8 pt-5" >
           <h4
             className={`text-2xl font-bold md:text-3xl ${
               description ? 'mb-2' : ''
