@@ -8,7 +8,7 @@ import { RESOURCE_TAGS } from "@/constant/tags";
 
 export default function ResourcesPage() {
   return (
-    <div className="flex">
+    <div className="flex mb-[5vh] min-h-[85vh]">
       <TagList tags = {RESOURCE_TAGS}/>
       <CardList heading="Resources" cardEntries = {RESOURCES} />
     </div>

@@ -11,7 +11,7 @@ export default function PostsPage() {
 
   return (
     <main>
-      <div className="flex">
+      <div className="flex mb-[5vh] min-h-[85vh]">
         <TagList tags = {POST_TAGS}/>
         <CardList heading="Privacy in AI" cardEntries = {POSTS} />
       </div>

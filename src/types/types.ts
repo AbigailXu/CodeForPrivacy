@@ -7,6 +7,7 @@ export type Post = {
   image: StaticImageData;
   date?: string;
   fileCount?: number;
+  context?: string;
 };
 
 export type Tag = {
@@ -21,6 +22,7 @@ export type Resource = {
   title: string;
   description?: string;
   image?: StaticImageData;
+  context?: string;
   date?: string;
   link?: string;
 };
