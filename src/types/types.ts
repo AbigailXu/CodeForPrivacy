@@ -1,8 +1,10 @@
+import { StaticImageData } from "next/image";
+
 export type Post = {
   _id: string;
   title: string;
   description?: string;
-  image: string;
+  image: StaticImageData;
   date?: string;
   fileCount?: number;
 };
@@ -18,7 +20,7 @@ export type Resource = {
   _id: string;
   title: string;
   description?: string;
-  image?: string;
+  image?: StaticImageData;
   date?: string;
   link?: string;
 };
