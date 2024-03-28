@@ -8,6 +8,12 @@ type PopupProps = {
 }
 
 export default function Popup({ content, handleCardClose }: PopupProps) {
+  if (!content) return null;
+
+  const createMarkup = (htmlContent: string) => {
+    return { __html: htmlContent };
+  }
+
   return (
     <>
       <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
@@ -33,9 +39,11 @@ export default function Popup({ content, handleCardClose }: PopupProps) {
             {/*body*/}
             <div className="popupContainer relative p-6 flex-auto">
               <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-                {content && (
-                  content.context
-                )}
+              {typeof content.context === 'string' ? (
+                  <div dangerouslySetInnerHTML={createMarkup(content.context)} />
+                ) : (
+                  <div>{content.context}</div>
+              )}
               </p>
             </div>
           </div>
