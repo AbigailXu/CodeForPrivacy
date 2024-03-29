@@ -1,5 +1,6 @@
 import React from 'react'
 import { Post, Resource } from '@/types/types';
+import Image from 'next/image';
 
 
 type PopupProps = {
@@ -32,12 +33,12 @@ export default function Popup({ content, handleCardClose }: PopupProps) {
                 onClick={() => handleCardClose()}
               >
                 <span className="bg-transparent text-black opacity-50 h-6 w-6 text-2xl block outline-none focus:outline-none">
-                  ×
                 </span>
               </button>
             </div>
             {/*body*/}
             <div className="popupContainer relative p-6 flex-auto">
+                 {/* <Image src={content.image || 'path/to/default/image.png'}  alt={content.title} className="mb-4"/> */}
               <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
               {typeof content.context === 'string' ? (
                   <div dangerouslySetInnerHTML={createMarkup(content.context)} />

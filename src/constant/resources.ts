@@ -1,14 +1,13 @@
 import { type Resource } from "@/types/types";
 
-import Enzuzo from "../../public/images/tools/enzuzo_cover.png"
-import BigID from "../../public/images/tools/bigid_cover.png"
-import Onetrust from "../../public/images/tools/onetrust_cover.png"
-import Securiti from "../../public/images/tools/securiti_cover.png"
-import Incogni from "../../public/images/tools/incogni_cover.png"
-import Collibra from "../../public/images/tools/collibra_cover.png"
-import PrivacyBee from "../../public/images/tools/privacybee_cover.png"
-import Drata from "../../public/images/tools/drata_cover.png"
-import tools from "../../public/images/tools/tools.json"
+import Enzuzo from "@/../public/images/tools/enzuzo_cover.png"
+import BigID from "@/../public/images/tools/bigid_cover.png"
+import Onetrust from "@/../public/images/tools/onetrust_cover.png"
+import Securiti from "@/../public/images/tools/securiti_cover.png"
+import Incogni from "@/../public/images/tools/incogni_cover.png"
+import Collibra from "@/../public/images/tools/collibra_cover.png"
+import PrivacyBee from "@/../public/images/tools/privacybee_cover.png"
+import Drata from "@/../public/images/tools/drata_cover.png"
 
 export const RESOURCES: Resource[] = [
 
@@ -24,9 +23,18 @@ export const RESOURCES: Resource[] = [
   {
     _id: "2",
     title: "BigID",
-    context:"<html><body><p>BigID is a data discovery and intelligence platform that helps businesses discover and manage data across their entire enterprise. The tool specializes in data discovery and intelligence and offers great tools for assessing, classifying, and managing sensitive data sets, as well as automating data flow mapping. BigID accomplishes this through a series of tools, both out-of-the-box and configurable, that help companies make sense of their information.\
-              The Data Privacy Management unit on the BigID platform provides you with your privacy program, which you can implement through privacy impact assessment (PIA) and data quality management. This mechanism enhances employee productivity by generating workflows to trigger automatically. You can automate your entire privacy program.\
-              You can create a user portal that deals with all of the privacy policy management issues that members of the public could face when dealing with your business. These extend to consent policy management, including cookie consent records, and continue through to results, such as DSAR reports or data deletion confirmation. </p></body></html>",
+    context:"<html><h1><a href=\"https://bigid.com/\">BigID</a>\</h1><br>\
+    <p>BigID is a data discovery and intelligence platform that helps businesses discover and manage data across their entire enterprise. <br>\
+       The tool specializes in data discovery and intelligence and offers great tools for assessing, classifying, and managing sensitive  <br>\
+       data sets, as well as automating data flow mapping. BigID accomplishes this through a series of tools, both out-of-the-box and  <br>\
+       configurable, that help companies make sense of their information.\
+    <br>\
+       The Data Privacy Management unit on the BigID platform provides you with your privacy program, which you can implement through <br>\
+       privacy impact assessment (PIA) and data quality management. This mechanism enhances employee productivity by generating <br>\
+       workflows to trigger automatically. You can automate your entire privacy program.You can create a user portal that deals <br>\
+       with all of the privacy policy management issues that members of the public could face when dealing with your business. <br>\
+       These extend to consent policy management, including cookie consent records, and continue through to results, such as <br>\
+       DSAR reports or data deletion confirmation. </p></body></html>",
     link: "https://bigid.com/",
     image: BigID
   },
