@@ -1,338 +1,146 @@
 [
-    {
-      "title": "Insider's Responsibilities",
-      "intro": "The insider element is responsible for 95% of all cybersecurity incidents.",
-      "content": "Difficult to defend against user malpractice\nFirst, it is challenging to defend against data privacy malpractices, abuse and theft coming from insiders. The insider element is responsible for 95% of all cybersecurity incidents. And while organizations can introduce limitations to reduce the insider related data privacy risk, they may have limited visibility and control over third-party data privacy malpractices and violations. It is possible that third-party access may be legitimate and necessary to deliver a required business service, but regulations such as GDPR require businesses to maintain unprecedented visibility into data handling by third-party services.\nTake a data-centric and zero-trust approach to address these limitations. It requires consolidated controls and intelligence into all processes, handling and modification of data workloads:\nContinuously assess the trust by evaluating how third-party tools and API requests are processed and used to interact with sensitive customer data.\nEstablish security measures that can dynamically assign security policies and controls to individual data workloads.\nUse data loss prevention (DLP) tools to reduce the risk of a data breach. Additionally, encrypt sensitive information to help eliminate risk of misuse against compromised user data.",
-      "cover": "state-of-security-2023-resource-tile-amer.jpg",
-      "authors": "Muhammad Raza",
-      "references": "https://www.splunk.com/en_us/blog/learn/data-privacy.html?utm_campaign=google_amer_en_search_generic_dynamic_audienceonly&utm_source=google&utm_medium=cpc&utm_content=dynamic_search&utm_term=&_bk=&_bt=641457582634&_bm=&_bn=g&_bg=144996249552&device=c&gad_source=1&gclid=CjwKCAjw5ImwBhBtEiwAFHDZx92ei6yulg6yWv3bCX0xGd7B85BHBWXa72yh9urqYcpUQR1BA7b3ZhoCFj4QAvD_BwE",
-      "question": "What percent of all cybersecurity incidents are caused by insiders?",
-      "options": [
-        "35%",
-        "55%",
-        "75%",
-        "95%"
-      ],
-      "answer": "95%"
-    },
-    {
-      "title": "The State of Data Privacy in 2024",
-      "intro": "Understanding the critical statistics and trends in data privacy.",
-      "content": "Recent statistics highlight a growing concern among consumers regarding their data privacy, with a significant percentage expressing distrust in how companies handle their personal information. Trends indicate a rising demand for transparency and stronger data protection measures, as well as the increasing importance of trust in customer relationships. The data suggests that a majority of consumers are wary of data collection practices and seek reassurances that their information is being handled responsibly.",
-      "cover": "58-Alarming-Data-Privacy-Statistics-Businesses-Must-See-in-2022-01",
-      "authors": "Masha Komnenic",
-      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
-      "question": "What percentage of North Americans do not believe it's possible to go through daily life without companies collecting data about them?",
-      "options": [
-        "62%",
-        "75%",
-        "81%",
-        "58%"
-      ],
-      "answer": "62%"
-    },
-    {
-      "title": "Data Privacy and Business Trust",
-      "intro": "Understanding the link between data privacy practices and consumer trust in businesses.",
-      "content": "A vast majority of users say their willingness to share personal data with a company depends significantly on how much they trust that company. This highlights the critical role of trust in the relationship between businesses and consumers.",
-      "cover": "Personal-vs-Sensitive-Personal-Information-Explained.jpg",
-      "authors": "Masha Komnenic",
-      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
-      "question": "What percentage of users say their willingness to share personal data is dependent on their trust in a company?",
-      "options": [
-        "68%",
-        "78%",
-        "88%",
-        "98%"
-      ],
-      "answer": "88%"
-    },
-    {
-      "title": "Cybersecurity and Data Breach Costs",
-      "intro": "This question covers the financial implications of data breaches for companies.",
-      "content": "The article highlights an increase in the average cost of data breaches, underlining the financial risks businesses face in the event of a cybersecurity incident.",
-      "cover": "98-Biggest-Data-Breaches-Hack-and-Exposures-2022-Update.jpg",
-      "authors": "Masha Komnenic",
-      "references": "https://termly.io/resources/articles/data-privacy-statistics/",
-      "question": "What was the average cost of data breaches in 2021 according to the article?",
-      "options": [
-        "$3.86 million",
-        "$4.24 million",
-        "$5.24 million",
-        "$6.24 million"
-      ],
-      "answer": "$4.24 million"
-    },
-    {
-      "title": "Online Privacy Importance",
-      "intro": "A look into how Americans view their online privacy.",
-      "content": "A large majority of Americans consider online privacy to be a very important issue, reflecting widespread concerns over data security and personal privacy.",
-      "cover": "ios-apps-that-collect-data.jpg",
-      "authors": "Josh Howarth",
-      "references": "https://explodingtopics.com/blog/data-privacy-stats",
-      "question": "What percentage of US Internet users agree that online privacy is important?",
-      "options": [
-        "70%",
-        "80%",
-        "90%",
-        "100%"
-      ],
-      "answer": "90%"
-    },
-    {
-      "title": "Data Control by Tech Companies",
-      "intro": "Exploring global consumer feelings towards data control by technology companies.",
-      "content": "A significant portion of consumers worldwide believe that technology companies have too much control over their data, indicating a general discomfort with current data management practices.",
-      "cover": "California Consumer Privacy Act.jpg",
-      "authors": "Josh Howarth",
-      "references": "https://explodingtopics.com/blog/data-privacy-stats",
-      "question": "What fraction of global consumers think tech companies have too much control over their data?",
-      "options": [
-        "One-third",
-        "One-half",
-        "Two-thirds",
-        "Three-quarters"
-      ],
-      "answer": "Two-thirds"
-    },
-    {
-      "title": "Consumer Actions for Online Privacy",
-      "intro": "This question looks into the measures taken by global adults to protect their online privacy.",
-      "content": "The article discusses the proactive steps taken by a significant number of adults worldwide to improve their data privacy, highlighting the growing concern and action against data vulnerability.",
-      "cover": "companies-control-over-data-min.jpg",
-      "authors": "Josh Howarth",
-      "references": "https://explodingtopics.com/blog/data-privacy-stats",
-      "question": "What percentage of global adults have taken steps to improve their online privacy?",
-      "options": [
-        "About 50%",
-        "Around 60%",
-        "Approximately 70%",
-        "Nearly 80%"
-      ],
-      "answer": "Approximately 70%"
-    },
-    {
-      "title": "Computer Virus Prevalence in the U.S.",
-      "intro": "Exploring the widespread issue of computer viruses among U.S. adults.",
-      "content": "About half of U.S. adults have experienced a computer virus, underscoring the pervasive risk and the importance of preventive measures like antivirus software.",
-      "cover": "Computer-Viruses-400x260.jpg",
-      "authors": "",
-      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
-      "question": "What percentage of U.S. adults have had a computer virus?",
-      "options": [
-        "30%",
-        "40%",
-        "50%",
-        "60%"
-      ],
-      "answer": "50%"
-    },
-    {
-      "title": "Average Cost of Data Breach for SMBs",
-      "intro": "Highlighting the financial impact of data breaches on small and medium-sized businesses.",
-      "content": "The average cost of a data breach for SMBs is notably high, which emphasizes the critical need for robust security measures to mitigate potential financial losses.",
-      "cover": "Computer-Viruses-400x260.jpg",
-      "authors": "",
-      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
-      "question": "What is the average cost of a data breach for SMBs?",
-      "options": [
-        "$50,000",
-        "$108,000",
-        "$200,000",
-        "$500,000"
-      ],
-      "answer": "$108,000"
-    },
-    {
-      "title": "Frequency of Hacker Attacks",
-      "intro": "Understanding the relentless frequency of hacker attacks in the digital age.",
-      "content": "Hacker attacks are alarmingly frequent, with an attempt made every 39 seconds, highlighting the ever-present threat to data security.",
-      "cover": "Computer-Viruses-400x260",
-      "authors": "",
-      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
-      "question": "How often do hackers attack, on average?",
-      "options": [
-        "Every 29 seconds",
-        "Every 39 seconds",
-        "Every 49 seconds",
-        "Every 59 seconds"
-      ],
-      "answer": "Every 39 seconds"
-    },
-    {
-      "title": "Time Taken to Detect A Data Breach",
-      "intro": "Understanding the the time taken to detect a data breach compared to the time for a hack",
-      "content": "An IBM study of 17 industries showed that the average time to detect a data breach is 197 days. This means that while many companies and individuals are in the dark about their data, hackers have more time to analyze the data and sell it on the dark web.\nTo make matters worse, 42% of customers never receive notice from companies that their information has been compromised. This lack of awareness makes it difficult for data breaches to be resolved.\nFortunately, there are several steps businesses can take to detect a data breach sooner. Businesses should invest in governance, risk management and compliance (GRC) and hire cybersecurity analysts to routinely monitor their security practices. Ensure that you’re implementing cybersecurity best practices today.",
-      "cover": "Data-Breach-400x223.jpg",
-      "authors": "",
-      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
-      "question": "How long does it take to detect a data breach, on average?",
-      "options": [
-        "Every 60 seconds",
-        "Every 30 minutes",
-        "Every 15 hours",
-        "Every 200 days"
-      ],
-      "answer": "Every 200 days"
-    },
-    {
-      "title": "The Need for a Cybersecurity Response Plan",
-      "intro": "Understanding the importance of having a cybersecurity response plan for every corporation",
-      "content": "As you have just learned, it takes an average of 197 days to detect a data breach and it is very important to develop a strategy to combat the effects. As it turns out, many enterprises don’t have a cyber security incident response plan (CSIRP).\nResearchers interviewed more than 3000 IT and Security professionals globally and found that 77% did not have a secure plan across organizations. Therefore, if a cyberattack or breach were to occur, the time required to resolve an incident will increase and likely cost organizations more. With the increase in volume of cyberattacks in 2021, it is important to have a response plan to minimize loss.",
-      "cover": "Data-Breach-2-400x251.jpg",
-      "authors": "",
-      "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
-      "question": "How many enterprises have a cybersecurity incident response plan?",
-      "options": [
-        "43%",
-        "23%",
-        "63%",
-        "33%"
-      ],
-      "answer": "23%"
-    },
-    {
-      "title": "Consumer Concerns on Data Privacy",
-      "intro": "Assessing the increasing concern among consumers regarding their data privacy.",
-      "content": "A significant portion of consumers now report being more concerned about their data privacy than in previous years, highlighting a growing awareness and unease regarding how personal data is handled.",
-      "cover": "Data-Privacy-Statistics-F-1.jpg",
-      "authors": "Osman Husain",
-      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
-      "question": "What percentage of consumers are more concerned about their data privacy now compared to a few years ago?",
-      "options": [
-        "53%",
-        "63%",
-        "73%",
-        "83%"
-      ],
-      "answer": "73%"
-    },
-    {
-      "title": "AI and Data Privacy Concerns",
-      "intro": "Exploring public trust in companies to make responsible AI decisions.",
-      "content": "With the advancement of AI, a considerable number of users report having little to no trust in companies to make responsible decisions regarding AI use in products, reflecting widespread skepticism.",
-      "cover": "Mprgin_Blog Images_1920x1000_DB_06march2023_V1.jpg",
-      "authors": "Osman Husain",
-      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
-      "question": "What percentage of users have little to no trust in companies to make responsible AI decisions?",
-      "options": [
-        "50%",
-        "60%",
-        "70%",
-        "80%"
-      ],
-      "answer": "70%"
-    },
-    {
-      "title": "Data Privacy Benefits for Businesses",
-      "intro": "The impact of data privacy efforts on business operations and customer relations.",
-      "content": "Over 70% of business professionals report seeing significant benefits from their data privacy initiatives, highlighting the positive impact on operations, customer trust, and compliance.",
-      "cover": "Data-Privacy-M-2.jpg",
-      "authors": "Osman Husain",
-      "references": "https://www.enzuzo.com/blog/data-privacy-statistics",
-      "question": "What percentage of business professionals report significant benefits from data privacy efforts?",
-      "options": [
-        "60%",
-        "70%",
-        "80%",
-        "90%"
-      ],
-      "answer": "Over 70%"
-    },
-    {
-      "title": "Awareness of Privacy Regulations in the US",
-      "intro": "Assessing the awareness level of internet users in the US about their country’s privacy and data protection rules.",
-      "content": "According to a poll conducted in June 2019, of all the surveyed US internet users, a net total of 33% reported they were conversant with the privacy and data protection rules in their country. This was a combined total of 7% who were very aware and 26% who were somewhat aware.",
-      "cover": "security-2.jpg",
-      "authors": "Quint Smith",
-      "references": "https://informationsecurity.wustl.edu/data-privacy-fast-facts/",
-      "question": "What percentage of internet users in the US are unaware of their country’s privacy and data protection rules?",
-      "options": [
-        "47%",
-        "57%",
-        "67%",
-        "77%"
-      ],
-      "answer": "67%"
-    },
-    {
-      "title": "Global Coverage by Privacy Regulation",
-      "intro": "Understanding the global impact of privacy regulations on personal data.",
-      "content": "By a certain year, a significant portion of the world’s population is expected to have their personal data protected under some form of privacy regulation.",
-      "cover": "6.jpg",
-      "authors": "Quint Smith",
-      "references": "https://informationsecurity.wustl.edu/data-privacy-fast-facts/",
-      "question": "By what year is it estimated that 65% of the world’s population will have their personal data covered under privacy regulations?",
-      "options": [
-        "2021",
-        "2022",
-        "2023",
-        "2024"
-      ],
-      "answer": "2023"
-    },
-    {
-      "title": "Global Concerns on Online Privacy",
-      "intro": "Understanding the global internet users' concerns regarding their online privacy.",
-      "content": "It’s no news that companies and corporations rendering services to the general public have access to their customers’ data. However, what this data is being used for is a different matter entirely. \nNearly four in five respondents of a global survey released in 2020 believed that whatever happened with their personal data was no longer under their control. According to consumer privacy statistics, most consumers believed their private information was at the hands of the companies that collected them.",
-      "cover": "Data Privacy (2).jpg",
-      "authors": "Branka Vuleta",
-      "references": "https://legaljobs.io/blog/privacy-statistics/",
-      "question": "What percentage of internet users around the world feel they have completely lost control over their personal data?",
-      "options": [
-        "59%",
-        "69%",
-        "79%",
-        "89%"
-      ],
-      "answer": "79%"
-    },
-    {
-      "title": "Americans' Concern Over Online Privacy",
-      "intro": "The article discusses Americans' concerns and confusion regarding privacy and their lack of control over personal information.",
-      "content": "A majority of Americans believe that their activities are constantly tracked by companies and the government, and they express significant concern over the usage of their data. The perception of personal data being less secure now than in the past is prevalent, and there's a widespread lack of trust in entities that collect data.",
-      "cover": "PI_2019.11.15_Privacy_featured (1).jpg",
-      "authors": "Brooke Auxier, Lee Rainie, Monica Anderson, Andrew Perrin, Madhu Kumar, Erica Turner",
-      "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
-      "question": "What percentage of Americans believe their personal data is less secure than it was five years ago?",
-      "options": [
-        "50%",
-        "60%",
-        "70%",
-        "80%"
-      ],
-      "answer": "70%"
-    },
-    {
-      "title": "Reading Privacy Policies",
-      "intro": "Exploring Americans' habits regarding privacy policies and terms of service.",
-      "content": "Despite the ubiquity of privacy policies, a large majority of Americans rarely or never read these documents before agreeing to them. This behavior underscores a gap between the availability of privacy-related information and the public’s engagement with it.",
-      "cover": "PI_2019.11.14_privacy_0-01.webp",
-      "authors": "Brooke Auxier, Lee Rainie, Monica Anderson, Andrew Perrin, Madhu Kumar, Erica Turner",
-      "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
-      "question": "How many Americans always or often read a company's privacy policy before agreeing to it?",
-      "options": [
-        "9%",
-        "22%",
-        "36%",
-        "49%"
-      ],
-      "answer": "22%"
-    },
-    {
-      "title": "Confidence in Company Cybersecurity",
-      "intro": "This question assesses the confidence levels among IT leaders in their organizations' cybersecurity postures.",
-      "content": "TEMPE, Ariz., Feb. 24, 2021 — Nearly 80% of senior IT and IT security leaders believe their organizations lack sufficient protection against cyberattacks despite increased IT security investments made in 2020 to deal with distributed IT and work-from-home challenges, according to a new IDG Research Services survey commissioned by Insight Enterprises (NASDAQ:NSIT), the global integrator of Insight Intelligent Technology Solutions™ for organizations of all sizes.\nThat high level of concern over the ability to withstand cyberthreats in today’s complex IT environment is causing 91% of organizations to increase their cybersecurity budgets in 2021, nearly matching the 96% that boosted IT security spending in 2020, according to the survey by Insight’s Cloud + Data Center Transformation team.\nThe survey, “Cybersecurity at a Crossroads: The Insight 2021 Report,” examined the impact of the distributed IT landscape and pandemic-related transition to a remote workforce on IT security, including shifts in modernization priorities, projects undertaken in 2020, and major obstacles faced in strengthening cybersecurity defenses. Respondents included more than 200 C-level IT and IT security executives in organizations with an average of 21,300 employees across a wide range of industries.\nAt a top level, the survey found that 78% lack confidence in their company’s IT security posture and believe improvements are needed. Respondents expressed the least confidence in their organization’s security roadmap (32%), security-related technology and tools (30%), and internal teams and skill sets (27%). They reported the highest level of trust in their company’s data management strategy, but even then, less than half (45%) voiced confidence in this aspect of security operations.",
-      "cover": "network-security.jpg",
-      "authors": "",
-      "references": "https://solutions.insight.com/78-Lack-Confidence-in-Company-Cybersecurity",
-      "question": "What percentage of senior IT and IT security leaders lack confidence in their organization’s cybersecurity posture?",
-      "options": [
-        "68%",
-        "78%",
-        "88%",
-        "98%"
-      ],
-      "answer": "78%"
-    }
-  ]
+  {
+    "title": "Insider's Responsibilities",
+    "intro": "Difficult to defend against user malpractice",
+    "content": "First, it is challenging to defend against data privacy malpractices, abuse and theft coming from insiders. The insider element is responsible for 95% of all cybersecurity incidents. And while organizations can introduce limitations to reduce the insider related data privacy risk, they may have limited visibility and control over third-party data privacy malpractices and violations. It is possible that third-party access may be legitimate and necessary to deliver a required business service, but regulations such as GDPR require businesses to maintain unprecedented visibility into data handling by third-party services.\n\nTake a data-centric and zero-trust approach to address these limitations. It requires consolidated controls and intelligence into all processes, handling and modification of data workloads:\n\nContinuously assess the trust by evaluating how third-party tools and API requests are processed and used to interact with sensitive customer data.\nEstablish security measures that can dynamically assign security policies and controls to individual data workloads.\nUse data loss prevention (DLP) tools to reduce the risk of a data breach. Additionally, encrypt sensitive information to help eliminate risk of misuse against compromised user data.\n\n\nLearn About Insider Threats & Insider Threat Prevention\nAll of your questions about insider threats and how to protect your business\n\nWhat is Insider Threat Prevention?\nInsider threat prevention is the proactive protection of systems and company data from loss caused by an employee or user that has internal access. Insider threat prevention focuses on protecting data by detecting and identifying all types of insider threats\n\n\n\nExamples of Insider Threats\nExamples of insider threats include users whose malicious, accidental, negligent activity results in data loss. Insider threats can be an employee that sends sensitive information to the wrong email address, a user that shares data in an unprotected way or an employee who steals company data in exchange for money\n\nIndicators of Insider Threats\nLook for these indicators of insider threats to help identify an insider threat:\n\nPrivilege Escalation \nAccessing and performing actions outside of role\nAbnormal data behavior like excessive downloading\nAnxious and aloof temperament\n\n\nHow Insider Threats Can Be Prevented\nInsider threats can be prevented by implementing a proactive insider threat identification and detection strategy. A successful insider threat detection and prevention strategy includes tools like activity monitoring, that can track user behaviors on systems\n\nBest Insider Threat Detection Tools\nThe best insider threat detection tools are those that provide insights into user behavior. User and entity behavior analytics and user activity monitoring and endpoint monitoring tools featuring behavior analytics are the best tools for insider threat detection\n\n",
+    "cover": "state-of-security-2023-resource-tile-amer.jpg",
+    "authors": "Muhammad Raza",
+    "references": "https://www.splunk.com/en_us/blog/learn/data-privacy.html?utm_campaign=google_amer_en_search_generic_dynamic_audienceonly&utm_source=google&utm_medium=cpc&utm_content=dynamic_search&utm_term=&_bk=&_bt=641457582634&_bm=&_bn=g&_bg=144996249552&device=c&gad_source=1&gclid=CjwKCAjw5ImwBhBtEiwAFHDZx92ei6yulg6yWv3bCX0xGd7B85BHBWXa72yh9urqYcpUQR1BA7b3ZhoCFj4QAvD_BwE",
+    "question": "What percent of all cybersecurity incidents are caused by insiders?",
+    "options": [
+      "35%",
+      "55%",
+      "75%",
+      "95%"
+    ],
+    "answer": "95%"
+  },
+  {
+    "title": "Americans' Concern Over Online Privacy",
+    "intro": "The role of technology companies, AI and regulation – plus personal experiences with data breaches, passwords, cybersecurity and privacy policies",
+    "content": "In an era where every click, tap or keystroke leaves a digital trail, Americans remain uneasy and uncertain about their personal data and feel they have little control over how it’s used.\n\nThis wariness is even ticking up in some areas like government data collection, according to a new Pew Research Center survey of U.S. adults conducted May 15-21, 2023.\n\nToday, as in the past, most Americans are concerned about how companies and the government use their information. But there have been some changes in recent years:\nThe public increasingly says they don’t understand what companies are doing with their data. Some 67% say they understand little to nothing about what companies are doing with their personal data, up from 59%.\nMost believe they have little to no control over what companies or the government do with their data. While these shares have ticked down compared with 2019, vast majorities feel this way about data collected by companies (73%) and the government (79%).",
+    "cover": "PI_2019.11.15_Privacy_featured (1).jpg",
+    "authors": "COLLEEN MCCLAIN, MICHELLE FAVERIO, MONICA ANDERSON AND EUGENIE PARK",
+    "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
+    "question": "What percentage of Americans don't understand what companies are doing with their personal data?",
+    "options": [
+      "57%",
+      "67%",
+      "47%",
+      "37%"
+    ],
+    "answer": "67%"
+  },
+  {
+    "title": "How Americans View Data Privacy I",
+    "intro": "Role of social media, tech companies and government regulation",
+    "content": "Americans have little faith that social media executives will responsibly handle user privacy.\n\nSome 77% of Americans have little or no trust in leaders of social media companies to publicly admit mistakes and take responsibility for data misuse.\n\nAnd they are no more optimistic about the government’s ability to rein them in: 71% have little to no trust that these tech leaders will be held accountable by the government for data missteps.\n\n\nArtificial intelligence\nPeople’s views on artificial intelligence (AI) are marked with distrust and worry about their data.\n\nAs AI raises new frontiers in how people’s data is being used, unease is high. Among those who’ve heard about AI, 70% have little to no trust in companies to make responsible decisions about how they use it in their products.\n\nAnd about eight-in-ten of those familiar with AI say its use by companies will lead to people’s personal information being used in ways they won’t be comfortable with (81%) or that weren’t originally intended (80%).\n\nStill, there’s some positivity: 62% of Americans who’ve heard of AI think that as companies use it, people’s information will be used to make life easier.\n\nChildren’s online privacy\nAmericans worry about kids’ online privacy – but largely expect parents to take responsibility. Some 89% are very or somewhat concerned about social media platforms knowing personal information about kids. Large shares also worry about advertisers and online games or gaming apps using kids’ data. And while most Americans (85%) say parents hold a great deal of responsibility for protecting kids’ online privacy, 59% also say this about tech companies and 46% about the government.\n\nGovernment regulation\nThere is bipartisan support for more regulation of what companies can do with people’s data. Some 72% of Americans say there should be more regulation than there is now; just 7% say there should be less. Support for more regulation reaches across the political aisle, with 78% of Democrats and 68% of Republicans taking this stance.\n\n",
+    "cover": "Data Privacy (2).jpg",
+    "authors": "COLLEEN MCCLAIN, MICHELLE FAVERIO, MONICA ANDERSON AND EUGENIE PARK",
+    "references": "https://www.pewresearch.org/internet/2023/10/18/how-americans-view-data-privacy/",
+    "question": "What percentage of Americans say there should be more regulation than there is now?",
+    "options": [
+      "52%",
+      "72%",
+      "82%",
+      "92%"
+    ],
+    "answer": "72%"
+  },
+  {
+    "title": "How Americans View Data Privacy II",
+    "intro": "North Americans’ day-to-day experiences with online privacy",
+    "content": "North Americans’ day-to-day experiences reflect the difficulty of managing your privacy, even amid widespread concern. Some people are overwhelmed navigating the options tech companies provide or skeptical these steps will make a difference. And at times, people fail to take steps to safeguard their data.\n\nFeelings about managing online privacy\nAmericans’ feelings about managing their online privacy range from confident to overwhelmed. Most Americans (78%) trust themselves to make the right decisions about their personal information.\n\nBut a majority say they’re skeptical anything they do will make much difference. And only about one-in-five are confident that those who have their personal information will treat it responsibly.\n\nHow people approach privacy policies\nPrivacy policies used by apps, websites and other online services allow users to review and consent to what is being done with their data.\n\nBut many say privacy policies’ long and technical nature can limit their usefulness – and that consumers lack meaningful choices.\n\nOur survey finds that a majority of Americans ignore privacy policies altogether: 56% frequently click “agree” without actually reading their content.\n\nPeople are also largely skeptical that privacy policies do what they’re intended to do. Some 61% think they’re ineffective at explaining how companies use people’s data. And 69% say they view these policies as just something to get past.\n\nPassword overload\nFrom social media accounts to mobile banking and streaming services, Americans must keep track of numerous passwords. This can leave many feeling fatigued, resigned and even anxious. \n\nThis survey finds about seven-in-ten Americans (69%) are overwhelmed by the number of passwords they have to keep track of. And nearly half (45%) report feeling anxious about whether their passwords are strong and secure.\n\nBut despite these concerns, only half of adults say they typically choose passwords that are more secure, even if they are harder to remember. A slightly smaller share opts for passwords that are easier to remember, even if they are less secure.\n\nPassword management\nThe public is adopting a range of strategies for managing their passwords.\n\nSome 41% of Americans say they always, almost always or often write down their passwords. A slightly smaller share (34%) save their passwords in their browser with the same frequency. And 21% regularly reset the passwords to their online accounts.\n\nThese tactics vary across age groups. Some 63% of Americans ages 65 and older regularly write their passwords down. By contrast, 49% of adults under 30 say the same about saving their passwords in their browser.\n\nOne recommended approach to password management is becoming more common: More Americans are turning to password managers for help.\n\nThe share who say they use a password manager has risen from 20% in 2019 to 32% today. And roughly half of those ages 18 to 29 (49%) say they use these tools.\n\nSmartphone security\nEven so, some riskier privacy habits linger. Notably, 16% of smartphone users say they do not use a security feature – like a passcode, fingerprint or face recognition – to unlock their phone.\n\nAnd this is more common among older smartphone users. Those ages 65 and older are more likely than adults under 30 to say they do not use a security feature to unlock their mobile devices (28% vs. 9%).\n\nStill, most users across age groups do take this security precaution.\n\nData breaches and hacks\nToday’s data environment also comes with tangible risks: Some Americans’ personal information has fallen into the wrong hands.\n\nRoughly one-quarter of Americans (26%) say someone has put fraudulent charges on their debit or credit card in the last 12 months. And 11% have had their email or social media accounts taken over without permission, while 7% have had someone attempt to open a line of credit or apply for a loan in their name.\n\nAll told, 34% have experienced at least one of these things in the past year.",
+    "cover": "PI_2023.10.18_data-privacy_featured.jpg",
+    "authors": "COLLEEN MCCLAIN, MICHELLE FAVERIO, MONICA ANDERSON AND EUGENIE PARK",
+    "references": "https://www.pewresearch.org/internet/2023/10/18/how-americans-view-data-privacy/",
+    "question": "Which of the following passwords is the most secure?",
+    "options": [
+      "SportsFan1983",
+      "7abc12.6.48",
+      "1234567890",
+      "WTh!58iLf2?9zD"
+    ],
+    "answer": "WTh!58iLf2?9zD"
+  },
+  {
+    "title": "Reading Privacy Policies",
+    "intro": "Exploring North Americans' habits regarding privacy policies and terms of service.",
+    "content": "There is also a collective sentiment that data security is more elusive today than in the past. When asked whether they think their personal data is less secure, more secure or about the same as it was five years ago, 70% of adults say their personal data is less secure. Only 6% report that they believe their data is more secure today than it was in the past.\n\nBut even as the public expresses worry about various aspects of their digital privacy, many Americans acknowledge that they are not always diligent about paying attention to the privacy policies and terms of service they regularly encounter. Fully 97% of Americans say they are ever asked to approve privacy policies, yet only about one-in-five adults overall say they always (9%) or often (13%) read a company’s privacy policy before agreeing to it. Some 38% of all adults maintain they sometimes read such policies, but 36% say they never read a company’s privacy policy before agreeing to it.\n\nMoreover, the practice of reading privacy policies doesn’t necessarily guarantee thoroughness. Among adults who say they ever read privacy policies before agreeing to their terms and conditions, only a minority – 22% – say they read them all the way through before agreeing to their terms and conditions.\n\nThere is also a general lack of understanding about data privacy laws among the general public: 63% of Americans say they understand very little or nothing at all about the laws and regulations that are currently in place to protect their data privacy.\n\nThese findings point to an overall wariness about the state of privacy these days, but there are some circumstances where the public sees value in this type of data-driven environment. For example, pluralities of adults say it is acceptable for poorly performing schools to share data about their students with a nonprofit group seeking to help improve educational outcomes or for the government to collect data about all Americans to assess who might be a potential terrorist.",
+    "cover": "PI_2019.11.14_privacy_0-03.jpg",
+    "authors": "Brooke Auxier, Lee Rainie, Monica Anderson, Andrew Perrin, Madhu Kumar, Erica Turner",
+    "references": "https://www.pewresearch.org/internet/2019/11/15/americans-and-privacy-concerned-confused-and-feeling-lack-of-control-over-their-personal-information/",
+    "question": "How many Americans always or often read a company's privacy policy before agreeing to it?",
+    "options": [
+      "9%",
+      "22%",
+      "36%",
+      "49%"
+    ],
+    "answer": "22%"
+  },
+  {
+    "title": "Confidence in Company Cybersecurity",
+    "intro": "The confidence levels among IT leaders in their organizations' cybersecurity postures.",
+    "content": "TEMPE, Ariz., Feb. 24, 2021 — Nearly 80% of senior IT and IT security leaders believe their organizations lack sufficient protection against cyberattacks despite increased IT security investments made in 2020 to deal with distributed IT and work-from-home challenges, according to a new IDG Research Services survey commissioned by Insight Enterprises (NASDAQ:NSIT), the global integrator of Insight Intelligent Technology Solutions™ for organizations of all sizes.\nThat high level of concern over the ability to withstand cyberthreats in today’s complex IT environment is causing 91% of organizations to increase their cybersecurity budgets in 2021, nearly matching the 96% that boosted IT security spending in 2020, according to the survey by Insight’s Cloud + Data Center Transformation team.\nThe survey, “Cybersecurity at a Crossroads: The Insight 2021 Report,” examined the impact of the distributed IT landscape and pandemic-related transition to a remote workforce on IT security, including shifts in modernization priorities, projects undertaken in 2020, and major obstacles faced in strengthening cybersecurity defenses. Respondents included more than 200 C-level IT and IT security executives in organizations with an average of 21,300 employees across a wide range of industries.\nAt a top level, the survey found that 78% lack confidence in their company’s IT security posture and believe improvements are needed. Respondents expressed the least confidence in their organization’s security roadmap (32%), security-related technology and tools (30%), and internal teams and skill sets (27%). They reported the highest level of trust in their company’s data management strategy, but even then, less than half (45%) voiced confidence in this aspect of security operations.",
+    "cover": "network-security.jpg",
+    "authors": "Cheryl Scholz and Jim Capalbo",
+    "references": "https://solutions.insight.com/78-Lack-Confidence-in-Company-Cybersecurity",
+    "question": "What percentage of senior IT and IT security leaders are confident in their organization’s cybersecurity posture?",
+    "options": [
+      "82%",
+      "22%",
+      "72%",
+      "42%"
+    ],
+    "answer": "22%"
+  },
+  {
+    "title": "What Our Society Knows About AI, Cybersecurity and Big Tech",
+    "intro": "Most adults can correctly identify a secure password. Far fewer can recognize an example of two-factor authentication",
+    "content": "Digital literacy is widely seen as an essential skill. But Americans’ understanding of digital topics varies notably depending on the subject. For example, majorities of U.S. adults know what cookies on websites do and can identify a secure password. Far fewer can recognize an example of two-factor authentication – a cybersecurity practice that makes signing into online accounts more secure.\n\nIn addition, much larger shares know Elon Musk was running Tesla and Twitter in April 2023 than understand the technology behind ChatGPT. (Twitter was recently renamed X in July 2023, after the survey was conducted.)\nOverall, Americans answer a median of five out of nine questions correctly on a digital knowledge survey that Pew Research Center conducted among 5,101 U.S. adults from May 15 to May 21, 2023. The questions span a range of topics, including cybersecurity practices, facts about major technology companies, artificial intelligence and federal online privacy laws.\n\nSome 26% of U.S. adults can answer at least seven of the nine questions accurately, but just 4% can correctly answer all nine. And as was the case in past digital knowledge surveys by the Center, the public’s understanding of digital issues differs by age and educational attainment.\n\nHow Americans’ digital knowledge varies by topic\n\nCybersecurity\n87% of U.S adults can correctly identify which password – out of four choices – is the most secure option.\n67% know that the purpose of cookies is to track visits and activity on a website.\n48% can correctly identify an example of two-factor authentication from a series of pictures.\n\nMajor technology companies\n80% know Elon Musk was running Tesla and Twitter in April 2023.1\n77% know Facebook changed its company name to Meta.\nArtificial intelligence\n42% know a deepfake is a seemingly real image, video or audio of something that didn’t occur.\n32% know large language models, such as ChatGPT, produce answers based on word patterns and relationships they previously learned from text pulled from the internet.\nFederal privacy laws\n23% know the United States lacks a national privacy law that sets common standards for what companies can do with all of the data their products and services collect.\n21% know websites in the U.S. are prohibited from collecting personal data from minors under 13.\nStill, Americans acknowledge they don’t know the answers to some of these questions. When it comes to artificial intelligence, similar shares say they’re not sure how large language models work (53%) or what a deepfake is (50%).\n\nUncertainty is also common when it comes to privacy laws: 52% of adults aren’t sure if the U.S. has a national online privacy law. And 40% aren’t sure about the age under which minors are protected from websites collecting their data without parental consent.",
+    "cover": "PI_2023.08.17_digital-knowledge_featured-jpg.jpg",
+    "authors": "OLIVIA SIDOTI AND EMILY A. VOGELS",
+    "references": "https://www.pewresearch.org/internet/2023/08/17/what-americans-know-about-ai-cybersecurity-and-big-tech/",
+    "question": "What is a “deepfake”?",
+    "options": [
+      "A seemingly real, computer-generated image, video or audio of something that did not occur",
+      "A text-based chatbot that tricks people into thinking that they are talking to another person",
+      "A system that records and protects information online",
+      "A program that makes it look like people are using the internet from a different location"
+    ],
+    "answer": "A seemingly real, computer-generated image, video or audio of something that did not occur"
+  },
+  {
+    "title": "Frequency of Hacker Attacks",
+    "intro": "Understanding the relentless frequency of hacker attacks in the digital age.",
+    "content": "By the time you finish reading this paragraph, another cyber attack will have occurred and another one will have begun. The cycle never ends. A study done by the University of Maryland (in 2016, mind you it’s 2024 now) found that on average, every 39 seconds a hacker attempts to breach someone’s data online. Although the statistic is outdated, cybercrime has increased by 600% since the beginning of COVID-19 so the statistic likely still holds up. If anything, attacks are more frequent now than ever before.\n\nHow do you protect yourself against attacks from attackers? Protect your data. Follow simple steps to protect your data from breaches. Install antivirus software. Password protect your information. Download a VPN to guard your computer network. There are several ways to keep your data secure.\n\nWhy is it important to protect customers’ personal information?\nDue to the nature of hybrid and remote work, personally identifiable information and PII are being shared online more consistently and hackers are taking the opportunity to breach data that remains unprotected.\n\nWhen deciding to do business with you, your clients trust that you will keep their information secure. Primarily if this information is used for personal identification or business operations that could be harmful to the individual if it were to be leaked.\n\nKeeping customer data safe is not only a great way to build a relationship with your customers but also to maintain the reputation you worked hard to build. All it takes is one breach for your reputation to go downhill. This is why it is important to implement best practices to protect your customers’ data.\n\nHere are 5 ways you can protect customer data today:\n\n1. Eliminate data after it is no longer needed\nIt’s nearly impossible to have your information leaked when it no longer exists, right? So, if you want to protect your customers’ data from hackers, you should consider deleting files that are no longer in use. For example, when you no longer require certain information from your clients, such as personally identifiable information (i.e. SIN number, Driver’s license) or health information (i.e. DOB, Address) instead of leaving the files in your computer vulnerable to breaches, you can delete them and then overwrite them using file-shredding software. If you want to take customer data protection to the next level, having a system that automatically deletes unwanted or expired files is a great strategy.\n\n2. Comply with regional data protection laws\nThere’s really no simpler solution to protecting your customers’ data than following data privacy regulations. Regulations vary by region (i.e. PIPEDA in Canada, HIPAA in the US, and GDPR in the EU) and are in place to govern how businesses collect, use, and protect the privacy of client information. By following these regulations, you are committed to ensuring the highest level of protection for your customers which gives them peace of mind and credibility for you. Ensure that you are keeping up to date with regulations by either allocating an employee to monitor changes or using a system that is compliant with these standards.\n\n\n3. Secure your devices\nThe working professional is rarely ever settled in one place. You need your customers’ data to be easily accessible regardless of where you are in order to do your job. Oftentimes, client data is accessed on your mobile devices and tablets and not just the work desktop. If you are using public wifi, chances are the network is not secure and you are making all the data on your device easily accessible to third parties. You should limit the use of public wifi networks and opt to use secure networks (password protected) on your devices. If they are unavailable, then make sure you have a virtual private network (VPN) downloaded to your device. VPN’s, such as Nord, create a private network from public wifi networks and make it difficult for hackers to access your data due to custom IP addresses. Securing your devices is the easiest and safest way to protect your customers. If you haven’t already, do it now.\n\n4. Update your software\nUpdate! Update! Update! We cannot stress this enough. Computer systems and software become more vulnerable to attacks when they are not updated with the newest software developments. Updated software usually includes bug fixes and enhancements that would otherwise keep your computer more susceptible to breaches and your customer data unprotected. The only exception to this is if there is a known security risk associated with a software update. If that’s the case, it’s better to wait for the next update.\n\nNext time that system update pops up on your device asking “New updates are available: Would you like to install?”, as tempting as it is to click “Remind me tomorrow”, make sure you press “Update now”. Future you and your clients will be thankful.\n\n5. Limit access to data\nNot everyone in your workplace will need access to your customer’s data. If you are working with a small team on a collaborative project it is okay to share files within that team. However, the community manager does not need access to your client’s personal information like the account lead would.\n\nLimiting the number of people who have access to the data lessens the vulnerabilities of internal breaches. Ways to limit access include enabling password protection for different levels of authority (i.e. only authorized users can access certain files within a larger folder) and enabling two-factor authentication to neutralize the risk of compromised passwords for authorized users attempting to access data.\n\n\nKey Takeaways:\n\nRidding of data that is no longer in use will prevent that information from being susceptible to data breaches.\nMake sure you understand what laws apply to your region so that your business is compliant with customer data protection regulations.\nBe consistent with updating your system’s software. It’s a simple proactive measure and it works.\nNot everyone needs access to your data. Limit the number of people that have passwords, authority, and access to your files.\n",
+    "cover": "Data-Privacy-M-2.jpg",
+    "authors": "",
+    "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+    "question": "How often do hackers attack, on average?",
+    "options": [
+      "Every 29 seconds",
+      "Every 39 seconds",
+      "Every 49 seconds",
+      "Every 59 seconds"
+    ],
+    "answer": "Every 39 seconds"
+  },
+  {
+    "title": "Time Taken to Detect A Data Breach",
+    "intro": "Understanding the the time taken to detect a data breach compared to the time for a hack",
+    "content": "An IBM study of 17 industries showed that the average time to detect a data breach is 197 days. This means that while many companies and individuals are in the dark about their data, hackers have more time to analyze the data and sell it on the dark web.\n\nTo make matters worse, 42% of customers never receive notice from companies that their information has been compromised. This lack of awareness makes it difficult for data breaches to be resolved.\n\nFortunately, there are several steps businesses can take to detect a data breach sooner. Businesses should invest in governance, risk management and compliance (GRC) and hire cybersecurity analysts to routinely monitor their security practices. Ensure that you’re implementing cybersecurity best practices today.\n\n21 Cybersecurity Tips and Best Practices for Your Business:\n\nCybercrime is undoubtedly one of the fastest-growing crimes in the world and it continues to impact businesses in all industries. Unless you want your company or firm’s name to end up in the headlines as a result of a security breach, you need to be aware of the most up-to-date cybersecurity tips and best practices.\n\nStaying protected from cyberattacks is challenging, however. It’s difficult to keep up when cybercriminals are persistently looking for new ways to expose security risks.\n\nStill, there are a number of cybersecurity tips that will help you prevent cyber attacks.\n\nHere, we’ve compiled a list of the top cybersecurity tips and best practices for you to implement and share with others. We’ll continue to update this list to help keep your business secure.\n\n1. Keep software up-to-date\nSoftware companies typically provide software updates for 3 reasons: to add new features, fix known bugs, and upgrade security.\n\nAlways update to the latest version of your software to protect yourself from new or existing security vulnerabilities.\n\n2. Avoid opening suspicious emails\nIf an email looks suspicious, don’t open it because it might be a phishing scam.\n\nSomeone might be impersonating another individual or company to gain access to your personal information. Sometimes the emails may also include attachments or links that can infect your devices.\n\n3. Keep hardware up-to-date\nOutdated computer hardware may not support the most recent software security upgrades. Additionally, old hardware makes it slower to respond to cyber-attacks if they happen. Make sure to use computer hardware that’s more up-to-date.\n\n4. Use a secure file-sharing solution to encrypt data\nIf you regularly share confidential information, you absolutely need to start using a secure file-sharing solution. Regular email is not meant for exchanging sensitive documents, because if the emails are intercepted, unauthorized users will have access to your precious data.\n\n5. Use anti-virus and anti-malware\nAs long as you’re connected to the web, it’s impossible to have complete and total protection from malware. However, you can significantly reduce your vulnerability by ensuring you have an anti-virus and at least one anti-malware installed on your computers.\n\n6. Use a VPN to privatize your connections\nFor a more secure and privatized network, use a virtual private network (VPN). It’ll encrypt your connection and protect your private information, even from your internet service provider.\n\nRelated Article | 8 Advantages of Using a VPN\n\n7. Check links before you click\nLinks can easily be disguised as something they’re not so it’s best to double check before you click on a hyperlink. On most browsers, you can see the target URL by hovering over the link. Do this to check links before you click on them.\n\n8. Don’t be lazy with your passwords!\nPut more effort into creating your passwords. You can use a tool like howsecureismypassword.net to find out how secure your passwords are.\n\n9. Disable Bluetooth when you don’t need it\nDevices can be hacked via Bluetooth and subsequently your private information can be stolen. If there’s no reason to have your Bluetooth on, turn it off!\n\n10. Enable 2-Factor Authentication\nMany platforms now allow you to enable 2-factor authentication to keep your accounts more secure. It’s another layer of protection that helps verify that it’s actually you who is accessing your account and not someone who’s unauthorized. Enable this security feature when you can.\n\n11. Remove adware from your machines\nAdware collects information about you to serve you more targeted ads. It’s best to rid your computer of all forms of adware to maintain your privacy. Use AdwCleaner to clean adware and unwanted programs from your computer.\n\n12. Double-check for HTTPS on websites\nWhen you’re on a website that isn’t using HTTPS, there’s no guarantee that the transfer of information between you and the site’s server is secure. Double-check that a site’s using HTTPS before you give away personal or private information.\n\n13. Don’t store important information in non-secure places\nWhen storing information online, you want to keep it in a location that can’t be accessed by unauthorized users.\n\n14. Scan external storage devices for viruses\nExternal storage devices are just as prone to malware as internal storage devices. If you connect an infected external device to your computer, the malware can spread. Always scan external devices for malware before accessing them.\n\n15. Avoid using public networks\nWhen you connect to a public network, you’re sharing the network with everyone who is also connected. Any information you send or retrieve on the network is vulnerable. Stay away from public networks or use a VPN when you’re connected to one.\n\n16. Avoid the “secure enough” mentality\nUnless you’re completely isolated from the rest of the world, there’s no such thing as being “secure enough.” Big companies like Facebook invest a fortune into security every year but are still affected by cyber attacks.\n\n17. Invest in security upgrades\nFollowing the previous tip, try to invest in security upgrades when they’re available. It’s better to eat the costs of security than pay for the consequences of a security breach!\n\n18. Back up important data\nImportant data can be lost as a result of a security breach. To make sure you’re prepared to restore data once it’s lost, you should ensure your important information is backed up frequently on the cloud or a local storage device.\n\n19. Train employees\nThe key to making cybersecurity work is to make sure your employees well trained, in sync, and consistently exercising security practices. Sometimes, one mistake from an improperly trained employee can cause an entire security system to crumble.\n\nRelated Article | How to Create a Corporate Culture Focused on Security\n\n20. Use HTTPS on your website\nHaving an SSL certificate installed and HTTPS enabled on your website will help encrypt all information that travels between a visitor’s browser and your web server.\n\n21. Employ a “White Hat” hacker\nNot all hackers are bad. Some hackers expose security risks for the sake of helping others improve their cybersecurity by keeping them aware of security flaws and patching them. These hackers are known as “white hat” hackers. It might benefit you to hire one to help you find risks you never knew you had.\n\n",
+    "cover": "Data-Breach-400x223.jpg",
+    "authors": "",
+    "references": "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
+    "question": "How long does it take to detect a data breach, on average?",
+    "options": [
+      "Every 60 seconds",
+      "Every 30 minutes",
+      "Every 15 hours",
+      "Every 200 days"
+    ],
+    "answer": "Every 200 days"
+  }
+]
