@@ -18,12 +18,12 @@ export const POSTS: Post[] = [
     title: "Insider's Responsibilities",
     description: "Difficult to defend against user malpractice",
     context: 
-    ["<html><body><p>Defending against data privacy issues, including malpractices, abuse, and theft by insiders, presents a significant challenge. Insiders <br/>", 
-    "are behind 95% of cybersecurity incidents. While organizations can impose limitations to mitigate risks from insiders, their visibility <br/>", 
-    "and control over third-party violations are often restricted. Despite third-party access being crucial for business services, <br/>",
+    ["<html><body><p>Defending against data privacy issues, including malpractices, abuse, and theft by insiders, presents a significant challenge. Insiders", 
+    "are behind 95% of cybersecurity incidents. While organizations can impose limitations to mitigate risks from insiders, their visibility", 
+    "and control over third-party violations are often restricted. Despite third-party access being crucial for business services,",
     "regulations like GDPR mandate businesses to ensure transparency in how third-parties handle data.</p><br/>",
 
-    "<p>To overcome these challenges, adopt a data-centric and zero-trust strategy incorporating comprehensive controls and insights <br/>",
+    "<p>To overcome these challenges, adopt a data-centric and zero-trust strategy incorporating comprehensive controls and insights",
     "across all data processes and modifications. This includes: <br/>",
     "<ul><li>- Continuously evaluating third-party tools and API requests' interaction with sensitive data to assess trust.</li>",
     "<li>- Implementing security measures that dynamically apply policies and controls to data workloads.</li>",
@@ -31,23 +31,23 @@ export const POSTS: Post[] = [
     
     "<h4>Understanding Insider Threats & Their Prevention</h4>",
     "<p>Discover everything about insider threats and safeguarding your business. What is Insider Threat Prevention? </p>",
-    "<p>It involves proactive measures to protect company data from threats posed by individuals with internal access, focusing on data <br/>",
+    "<p>It involves proactive measures to protect company data from threats posed by individuals with internal access, focusing on data",
     "protection through threat detection and identification.</p><br/>",
 
     "<h4>Examples of Insider Threats</h4> ",
-    "<p>These threats range from malicious to accidental actions leading to data loss, such as sending sensitive data to incorrect recipients, <br/>",
+    "<p>These threats range from malicious to accidental actions leading to data loss, such as sending sensitive data to incorrect recipients,",
     " unprotected data sharing, or data theft for financial gain.</p><br/>",
 
     "<h4>Indicators of Insider Threats</h4>",
-    "<p>Signs include unauthorized privilege escalation, actions beyond one’s role, abnormal data activities like excessive downloads, and a <br/>",
+    "<p>Signs include unauthorized privilege escalation, actions beyond one’s role, abnormal data activities like excessive downloads, and a",
     "demeanor that’s anxious or aloof.</p><br/>",
 
     "<h4>Preventing Insider Threats</h4>",
-    "<p>This can be achieved through a strategy focused on early identification and detection, employing tools for monitoring activities and <br/>",
+    "<p>This can be achieved through a strategy focused on early identification and detection, employing tools for monitoring activities and",
     "tracking user behaviors on systems.</p><br/>",
     
     "<h4>Top Tools for Detecting Insider Threats</h4>",
-    "<p>Effective tools offer insights into user behavior, with analytics on user and entity behaviors, and monitoring of user activities and <br/>",
+    "<p>Effective tools offer insights into user behavior, with analytics on user and entity behaviors, and monitoring of user activities and",
     "endpoints, being pivotal for detecting insider threats.</p></body></html>"],
     image: state_of_security_2023_resource_tile_amer,
     authors: "Muhammad Raza",
