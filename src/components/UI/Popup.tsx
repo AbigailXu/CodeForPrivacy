@@ -8,6 +8,10 @@ type PopupProps = {
   handleCardClose: Function
 }
 
+function hasLink(obj: any): obj is { link: string } {
+  return 'link' in obj;
+}
+
 export default function Popup({ content, handleCardClose }: PopupProps) {
   if (!content) return null;
 
@@ -24,28 +28,29 @@ export default function Popup({ content, handleCardClose }: PopupProps) {
             {/*header*/}
             <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
               <h3 className="text-3xl font-semibold">
-                {content && (
-                  content.title
-                )}
+              {content && (
+                hasLink(content) ? (
+                  <a href={content.link}>{content.title}</a>
+                ) : (
+                  <>{content.title}</> // Just display the title without a link
+                )
+              )}
               </h3>
               <button
                 className="p-1 ml-auto bg-transparent border-0 text-black opacity-50 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                 onClick={() => handleCardClose()}
               >
                 <span className="bg-transparent text-black opacity-50 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                  x
                 </span>
               </button>
             </div>
             {/*body*/}
-            <div className="popupContainer relative p-6 flex-auto">
-                 {/* <Image src={content.image || 'path/to/default/image.png'}  alt={content.title} className="mb-4"/> */}
-              <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-              {typeof content.context === 'string' ? (
-                  <div dangerouslySetInnerHTML={createMarkup(content.context)} />
-                ) : (
-                  <div>{content.context}</div>
-              )}
-              </p>
+            <div className="popupContainer relative p-6 flex-auto overflow-y-auto">
+                 <Image src={content.image || 'path/to/default/image.png'}  alt={content.title} className="mb-4"/>
+              <div className="my-4 relative text-blueGray-500 text-lg leading-relaxed">
+                <div dangerouslySetInnerHTML={content.context && { __html: content.context && content.context.join('') }} />
+              </div>
             </div>
           </div>
         </div>
