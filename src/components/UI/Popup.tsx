@@ -114,6 +114,11 @@ export default function Popup({ content, handleCardClose }: PopupProps) {
                 </div>
               </div>
               }
+              {/*Reference and authors*/}
+              <div className="mt-10 text-l opacity-50 pb-2">
+                <div>{content.authors}</div>
+                <div><a href={content.reference}>{content.reference}</a></div>
+              </div>
             </div>
           </div>
         </div>

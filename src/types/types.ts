@@ -4,7 +4,7 @@ export type Post = {
   _id: string;
   title: string;
   description?: string;
-  authors: string;
+  authors?: string;
   image: StaticImageData;
   date?: string;
   context?: string[] | JSX.Element[];
