@@ -67,13 +67,13 @@ export default function Navbar() {
           className="flex flex-col gap-[5px] lg:hidden"
         >
           <div
-            className={`transition-300 h-[5px] w-[22px] rounded-full bg-white ${
+            className={`transition-300 h-[5px] w-[22px] rounded-full bg-black ${
               isMobileMenuOpen ? "translate-x-[10px]" : ""
             }`}
           />
-          <div className="h-[5px] w-8 rounded-full bg-white" />
+          <div className="h-[5px] w-8 rounded-full bg-black" />
           <div
-            className={`transition-300 h-[5px] w-[22px] rounded-full bg-white ${
+            className={`transition-300 h-[5px] w-[22px] rounded-full bg-black ${
               isMobileMenuOpen ? "" : "translate-x-[10px]"
             }`}
           />
@@ -81,7 +81,7 @@ export default function Navbar() {
       </header>
       <div
         className={`transition-300 fixed inset-0 z-40 lg:hidden ${
-          isMobileMenuOpen ? "" : "translate-x-full"
+          isMobileMenuOpen ? "bg-white" : "translate-x-full "
         }`}
       >
         <div className="bg-gradient pointer-events-none absolute inset-0 opacity-10" />
