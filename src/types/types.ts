@@ -29,4 +29,6 @@ export type Resource = {
   context?: string[] | JSX.Element[];
   date?: string;
   link?: string;
+  authors?: string;
+  reference?: string;
 };
