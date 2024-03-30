@@ -92,9 +92,34 @@
   }
   
   .popupContainer {
-    width: 80vw;
-    height: 80vh;
-    
+    width: 84vw;
+    height: 94vh;
+  }
+
+  input[type="radio"] {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+    background-color: white;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid  #535353;
+  }
+  
+  input[type="radio"]:checked {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    position: relative;
+    background-color: #4F46E5;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid #535353;
   }
 }
 
