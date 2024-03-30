@@ -47,7 +47,7 @@ export default function Popup({ content, handleCardClose }: PopupProps) {
             </div>
             {/*body*/}
             <div className="popupContainer relative p-6 flex-auto overflow-y-auto">
-                 <Image src={content.image || 'path/to/default/image.png'}  alt={content.title} className="mb-4"/>
+                 <Image src={content.image || 'path/to/default/image.png'}  style={{ width: '40vw', objectFit: 'scale-down' }} alt={content.title} className="mb-4"/>
               <div className="my-4 relative text-blueGray-500 text-lg leading-relaxed">
                 <div dangerouslySetInnerHTML={content.context && { __html: content.context && content.context.join('') }} />
               </div>

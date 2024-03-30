@@ -16,7 +16,9 @@ export const RESOURCES: Resource[] = [
     _id: "1",
     title: "Enzuzo",
     description: "test AI models without compromising privacy",
-    context: ["Generate artificial datasets with the same characteristics as real data, so you can develop and test AI models without compromising privacy."],
+    context: [
+      
+    ],
     link: "https://www.enzuzo.com/",
     image: Enzuzo
   },
@@ -26,11 +28,16 @@ export const RESOURCES: Resource[] = [
     description:
       "a data discovery and intelligence platform that helps businesses managing sensitive data",
     context: [
-      "<html><body><p>BigID is a data discovery and intelligence platform that helps businesses discover and manage data across their entire enterprise. The tool specializes in data discovery and intelligence and offers great tools for assessing, classifying,",
-      "and managing sensitive data sets, as well as automating data flow mapping. BigID accomplishes this through a series of tools, both out-of-the-box and configurable, that help companies make sense of their information.</p> <br/>",
-      "<p>The Data Privacy Management unit on the BigID platform provides you with your privacy program, which you can implement through privacy impact assessment (PIA) and data quality management. This mechanism enhances employee productivity by generating",
-      "workflows to trigger automatically. You can automate your entire privacy program.You can create a user portal that deals with all of the privacy policy management issues that members of the public could face when dealing with your business.",
-      "These extend to consent policy management, including cookie consent records, and continue through to results, such as DSAR reports or data deletion confirmation.</p></body></html>"
+      "<html><body><br/><p>BigID is a data discovery and intelligence platform that helps businesses discover and manage data across their entire enterprise. <br/>",
+      "The tool specializes in data discovery and intelligence and offers great tools for assessing, classifying, and managing sensitive <br/>",
+      "data sets, as well as automating data flow mapping. BigID accomplishes this through a series of tools, both out-of-the-box and <br/>",
+      "configurable, that help companies make sense of their information. </p><br/>",
+      "<p>The Data Privacy Management unit on the BigID platform provides you with your privacy program, which you can implement <br/>",
+      "throughprivacy impact assessment (PIA) and data quality management. This mechanism enhances employee productivity by <br/>",
+      "generating workflows to trigger automatically. You can automate your entire privacy program.You can create a user portal <br/>",
+      "that deals with all of the privacy policy management issues that members of the public could face when dealing with your <br/>",
+      "business. These extend to consent policy management, including cookie consent records, and continue through to results, such <br/>",
+      "as DSAR reports or data deletion confirmation. </p></body></html>"
     ],
     link: "https://bigid.com/",
     image: BigID
