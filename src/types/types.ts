@@ -4,10 +4,14 @@ export type Post = {
   _id: string;
   title: string;
   description?: string;
+  authors: string;
   image: StaticImageData;
   date?: string;
-  fileCount?: number;
   context?: string[] | JSX.Element[];
+  reference?: string;
+  question: string;
+  options: string[];
+  answer: string;
 };
 
 export type Tag = {
