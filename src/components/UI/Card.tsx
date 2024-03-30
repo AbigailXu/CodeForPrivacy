@@ -42,8 +42,13 @@ export default function Card({
             {title}
           </h4>
           {date && (
-            <div className="mb-5 flex items-center gap-3">
-              <p className="text-sm text-grey2 md:text-md">Updated {date}</p>
+            <div className="mb-2 flex items-center gap-3">
+              <p className="text-sm opacity-50 md:text-md">Updated {date}</p>
+            </div>
+          )}
+          {description && (
+            <div className="flex items-center gap-3">
+              <p className="text-sm text-grey2 md:text-md">{description}</p>
             </div>
           )}
         </div>
