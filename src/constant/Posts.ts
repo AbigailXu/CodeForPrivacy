@@ -247,10 +247,10 @@ export const POSTS: Post[] = [
     reference: "https://www.titanfile.com/blog/7-data-privacy-statistics-that-may-surprise-you/",
     question: "How often do hackers attack, on average?",
     options: [
-      "Every 29 seconds",
+      "Every 39 minutes",
       "Every 39 seconds",
-      "Every 49 seconds",
-      "Every 59 seconds"
+      "Every 39 hours",
+      "Every 39 days"
     ],
     answer: "Every 39 seconds",
     date: "2024/04/01",
