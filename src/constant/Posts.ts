@@ -61,7 +61,7 @@ export const POSTS: Post[] = [
       "95%"
     ],
     answer: "95%",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {
     _id: "2",
@@ -84,7 +84,7 @@ export const POSTS: Post[] = [
       "37%"
     ],
     answer: "67%",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {
     _id: "3",
@@ -115,7 +115,7 @@ export const POSTS: Post[] = [
       "92%"
     ],
     answer: "72%",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {
     _id: "4",
@@ -148,7 +148,7 @@ export const POSTS: Post[] = [
       "WTh!58iLf2?9zD"
     ],
     answer: "WTh!58iLf2?9zD",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {
     _id: "5",
@@ -172,7 +172,7 @@ export const POSTS: Post[] = [
       "49%"
     ],
     answer: "22%",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {
     _id: "6",
@@ -195,7 +195,7 @@ export const POSTS: Post[] = [
       "42%"
     ],
     answer: "22%",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {_id: "7",
     title: "What Our Society Knows About AI, Cybersecurity and Big Tech",
@@ -222,7 +222,7 @@ export const POSTS: Post[] = [
       "A program that makes it look like people are using the internet from a different location"
     ],
     answer: "A seemingly real, computer-generated image, video or audio of something that did not occur",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {_id: "8",
     title: "Frequency of Hacker Attacks",
@@ -253,7 +253,7 @@ export const POSTS: Post[] = [
       "Every 59 seconds"
     ],
     answer: "Every 39 seconds",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {_id: "9",
     title: "Time Taken to Detect A Data Breach",
@@ -297,7 +297,7 @@ export const POSTS: Post[] = [
       "Every 200 days"
     ],
     answer: "Every 200 days",
-    date: "2023/01/33",
+    date: "2024/04/01",
   },
   {_id: "10",
     title: "In the Digital Age: The Importance of Privacy-Enhancing Technologies (PETs)",
@@ -329,6 +329,6 @@ export const POSTS: Post[] = [
       "Access control"
     ],
     answer: "Onion routing",
-    date: "2023/01/33",
+    date: "2024/04/01",
 }
 ];
