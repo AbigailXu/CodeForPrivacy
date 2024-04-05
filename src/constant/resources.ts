@@ -25,7 +25,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>E-commerce and Marketing Platform Integrations: Understanding the unique needs of e-commerce businesses and digital marketers, Enzuzo integrates seamlessly with popular platforms such as Shopify, WordPress, and Wix. This ensures that privacy compliance is woven into the fabric of a business's online presence, from the storefront to the marketing campaigns.</p></body></html>"
     ],
     reference: "https://www.enzuzo.com/",
-    image: Enzuzo
+    image: Enzuzo,
+    tag:"Tool"
   },
   {
     _id: "2",
@@ -40,7 +41,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Insightful Data Analysis and Reporting: </h4>BigID's platform also delivers deep insights into an organization's data landscape and privacy risk profile through comprehensive reporting and visualization tools. These insights enable businesses to make informed decisions about data management strategies, identify areas of risk, and demonstrate compliance with regulatory requirements.</p></body></html>"
     ],
     reference: "https://bigid.com/",
-    image: BigID
+    image: BigID,
+    tag:"Tool"
   },
   {
     _id: "3",
@@ -57,7 +59,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Advanced Analytics and Reporting: </h4>OneTrust delivers powerful analytics and reporting capabilities, offering organizations insight into their privacy posture and compliance status. These insights can inform decision-making and strategy around data protection and privacy management.</p></body></html>"
     ],
     reference: "https://www.onetrust.com/",
-    image: Onetrust
+    image: Onetrust,
+    tag:"Tool"
   },
   {
     _id: "4",
@@ -74,7 +77,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Security and Privacy by Design: </h4>Securiti emphasizes the principles of security and privacy by design, offering tools and guidance to help organizations embed these principles into their product development and data processing activities from the outset.</p></body></html>"
     ],
     reference: "https://securiti.ai/",
-    image: Securiti
+    image: Securiti,
+    tag:"Tool"
   },
   {
     _id: "5",
@@ -89,7 +93,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Privacy Compliance: </h4>Incogni's service is designed with an understanding of global privacy regulations, such as GDPR in Europe and CCPA in California, which grant individuals the right to have their personal data deleted. Incogni facilitates compliance with these laws by acting on behalf of its users.</p></body></html>"
     ],
     reference: "https://incogni.com/",
-    image: Incogni
+    image: Incogni,
+    tag:"Tool"
   },
   {
     _id: "6",
@@ -105,7 +110,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Collaboration and Workflow Automation: </h4>The platform promotes collaboration among data users, stewards, and owners through integrated workflows and processes. Collibra automates data governance and management workflows, reducing manual efforts and enhancing efficiency in data operations.</p></body></html>"
     ],
     reference: "https://www.collibra.com/",
-    image: Collibra
+    image: Collibra,
+    tag:"Tool"
   },
   {
     _id: "7",
@@ -121,7 +127,8 @@ export const RESOURCES: Resource[] = [
       "<p><h4>VPN Services: </h4>To further enhance privacy and security online, PrivacyBee offers VPN (Virtual Private Network) services. This allows users to encrypt their internet connection, protect their online activities from surveillance, and secure their data from hackers, especially when using public Wi-Fi networks.</p></body></html>"
     ],
     reference: "https://privacybee.com/",
-    image: PrivacyBee
+    image: PrivacyBee,
+    tag:"Tool"
   },
   {
     _id: "8",
@@ -138,6 +145,7 @@ export const RESOURCES: Resource[] = [
       "<p><h4>Employee Training and Awareness: </h4>Drata facilitates the deployment of security awareness training for employees, reinforcing the human element of cybersecurity. Regular training helps maintain a culture of security awareness and compliance throughout the organization.</p></body></html>"
     ],
     reference: "https://drata.com/",
-    image: Drata
+    image: Drata,
+    tag:"Tool"
   }
 ];

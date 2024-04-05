@@ -62,6 +62,7 @@ export const POSTS: Post[] = [
     ],
     answer: "95%",
     date: "2024/04/01",
+    tag:"Others"
   },
   {
     _id: "2",
@@ -85,6 +86,7 @@ export const POSTS: Post[] = [
     ],
     answer: "67%",
     date: "2024/04/01",
+    tag:"Others"
   },
   {
     _id: "3",
@@ -116,6 +118,7 @@ export const POSTS: Post[] = [
     ],
     answer: "72%",
     date: "2024/04/01",
+    tag:"Others"
   },
   {
     _id: "4",
@@ -149,6 +152,7 @@ export const POSTS: Post[] = [
     ],
     answer: "WTh!58iLf2?9zD",
     date: "2024/04/01",
+    tag:"Others"
   },
   {
     _id: "5",
@@ -173,6 +177,7 @@ export const POSTS: Post[] = [
     ],
     answer: "22%",
     date: "2024/04/01",
+    tag:"Others"
   },
   {
     _id: "6",
@@ -196,6 +201,7 @@ export const POSTS: Post[] = [
     ],
     answer: "22%",
     date: "2024/04/01",
+    tag:"Others"
   },
   {_id: "7",
     title: "What Our Society Knows About AI, Cybersecurity and Big Tech",
@@ -223,6 +229,7 @@ export const POSTS: Post[] = [
     ],
     answer: "A seemingly real, computer-generated image, video or audio of something that did not occur",
     date: "2024/04/01",
+    tag:"Others"
   },
   {_id: "8",
     title: "Frequency of Hacker Attacks",
@@ -254,6 +261,7 @@ export const POSTS: Post[] = [
     ],
     answer: "Every 39 seconds",
     date: "2024/04/01",
+    tag:"Others"
   },
   {_id: "9",
     title: "Time Taken to Detect A Data Breach",
@@ -298,6 +306,7 @@ export const POSTS: Post[] = [
     ],
     answer: "Every 200 days",
     date: "2024/04/01",
+    tag:"Others"
   },
   {_id: "10",
     title: "In the Digital Age: The Importance of Privacy-Enhancing Technologies (PETs)",
@@ -330,5 +339,6 @@ export const POSTS: Post[] = [
     ],
     answer: "Onion routing",
     date: "2024/04/01",
+    tag:"Others"
 }
 ];

@@ -12,6 +12,7 @@ export type Post = {
   question: string;
   options: string[];
   answer: string;
+  tag: string;
 };
 
 export type Tag = {
@@ -31,4 +32,5 @@ export type Resource = {
   link?: string;
   authors?: string;
   reference?: string;
+  tag: string;
 };

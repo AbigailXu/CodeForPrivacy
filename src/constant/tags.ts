@@ -32,7 +32,7 @@ export const RESOURCE_TAGS: Tag[] = [
   },
   {
     _id: "2",
-    title: "Tools",
+    title: "Tool",
     iconType: "",
     iconName: ""
   },
