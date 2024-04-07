@@ -26,7 +26,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://www.enzuzo.com/",
     image: Enzuzo,
-    tag:"Tool"
+    tag:"Compliance"
   },
   {
     _id: "2",
@@ -42,7 +42,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://bigid.com/",
     image: BigID,
-    tag:"Tool"
+    tag:"Privacy"
   },
   {
     _id: "3",
@@ -60,7 +60,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://www.onetrust.com/",
     image: Onetrust,
-    tag:"Tool"
+    tag:"Compliance"
   },
   {
     _id: "4",
@@ -78,7 +78,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://securiti.ai/",
     image: Securiti,
-    tag:"Tool"
+    tag:"Privacy"
   },
   {
     _id: "5",
@@ -94,7 +94,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://incogni.com/",
     image: Incogni,
-    tag:"Tool"
+    tag:"Privacy"
   },
   {
     _id: "6",
@@ -111,7 +111,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://www.collibra.com/",
     image: Collibra,
-    tag:"Tool"
+    tag:"Compliance"
   },
   {
     _id: "7",
@@ -128,7 +128,7 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://privacybee.com/",
     image: PrivacyBee,
-    tag:"Tool"
+    tag:"Privacy"
   },
   {
     _id: "8",
@@ -146,6 +146,6 @@ export const RESOURCES: Resource[] = [
     ],
     reference: "https://drata.com/",
     image: Drata,
-    tag:"Tool"
+    tag:"Compliance"
   }
 ];

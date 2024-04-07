@@ -26,21 +26,14 @@ export const POST_TAGS: Tag[] = [
 export const RESOURCE_TAGS: Tag[] = [
   {
     _id: "1",
-    title: "Research",
+    title: "Privacy",
     iconType: "",
     iconName: ""
   },
   {
     _id: "2",
-    title: "Tool",
+    title: "Compliance",
     iconType: "",
     iconName: ""
-  },
-  {
-    _id: "3",
-    title: "Legal",
-    iconType: "",
-    iconName: ""
-  },
-  
+  }
 ];
